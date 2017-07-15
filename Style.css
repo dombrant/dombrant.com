@@ -25,7 +25,7 @@ a:visited{
 
 html{
   background-image: url("img/Beach Blur.jpg");
-  background-size: 100%;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
