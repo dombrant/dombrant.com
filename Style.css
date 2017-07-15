@@ -39,12 +39,6 @@ html{
   color: white;
 }
 
-@media (max-width: 700px) {
-  html{
-    background-size: auto;
-  }
-}
-
 h1{
   margin-top: 15%;
   margin-bottom: 0;
