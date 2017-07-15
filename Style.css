@@ -62,7 +62,7 @@ p{
   font-size: 24px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   p{
     margin-left: 20vw;
     margin-right: 20vw;
