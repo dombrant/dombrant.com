@@ -37,7 +37,7 @@ a:visited{
 }
 
 @media (max-width: 700px) {
-  .body{
+  html{
     background-size: auto;
   }
 }
