@@ -23,6 +23,12 @@ a:visited{
  * End CSS Reset
  */
 
+html{
+  background-image: url("img/Beach Blur.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .body{
   display: flex;
   flex-direction: column;
@@ -31,9 +37,6 @@ a:visited{
   height: 100vh;
   text-align: center;
   color: white;
-  background-image: url("img/Beach Blur.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 @media (max-width: 700px) {
