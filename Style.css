@@ -9,7 +9,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #1da0f1;
 }
 
 a:hover {
@@ -72,4 +71,16 @@ p {
     margin-left: 20vw;
     margin-right: 20vw;
   }
+}
+
+.gitHubLink {
+  color: #1B1F23;
+}
+
+.twitterLink {
+  color: #1da0f1;
+}
+
+.homepageLink {
+  color: #FF9800;
 }
