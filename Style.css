@@ -66,10 +66,17 @@ p {
   font-size: 24px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 701px) {
   p {
     margin-left: 20vw;
     margin-right: 20vw;
+  }
+}
+
+@media (max-width: 700px) {
+  p {
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 }
 
