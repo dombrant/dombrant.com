@@ -91,3 +91,23 @@ p {
 .homepageLink {
   color: #FF9800;
 }
+
+.svgContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+
+.svgContainer svg {
+  width: 50px;
+  height: 50px;
+}
+
+.twitterSVG {
+  margin-right: 5vw;
+  fill: #1DA1F2;
+}
+
+.gitHubSVG {
+  fill: #181717;
+}
