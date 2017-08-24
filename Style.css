@@ -54,6 +54,7 @@ h1 {
   body {
     height: auto;
   }
+  
   h1 {
     margin-top: 0;
     font-size: 72px;
@@ -85,7 +86,7 @@ p {
 }
 
 .twitterLink {
-  color: #1da0f1;
+  color: #1DA0F1;
 }
 
 .homepageLink {
