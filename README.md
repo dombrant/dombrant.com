@@ -1,4 +1,4 @@
-# Dominic Brant Portfolio - Version 0.2
+# Dominic Brant Portfolio - Version 1.0
 
 This is the repo where I will host my personal website [dombrant.com](https://dombrant.com), mainly to network with and to show off my portfolio of front end projects.
 
