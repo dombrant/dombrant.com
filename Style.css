@@ -81,11 +81,11 @@ p {
   }
 }
 
-.gitHubLink {
+.github-link {
   color: #1B1F23;
 }
 
-.twitterLink {
+.twitter-link {
   color: #1DA0F1;
 }
 
@@ -93,22 +93,22 @@ p {
   color: #FF9800;
 }
 
-.svgContainer {
+.svg-container {
   display: flex;
   justify-content: center;
   margin-bottom: 10vh;
 }
 
-.svgContainer svg {
+.svg-container svg {
   width: 50px;
   height: 50px;
 }
 
-.twitterSVG {
+.twitter-svg {
   margin-right: 5vw;
   fill: #1DA1F2;
 }
 
-.gitHubSVG {
+.github-svg {
   fill: #181717;
 }
