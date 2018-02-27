@@ -1,0 +1,23 @@
+/*
+ * CSS Reset
+ */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+/*
+ * End CSS Reset
+ */
