@@ -1,4 +1,14 @@
 .banner-image {
+  display: flex;
+  justify-content: center;
   width: 100vw;
-  max-height: 100vh;
+  height: 100vh;
+  background-image: url('../../img/palm trees-6EBBDE.jpg');
+  background-size: cover;
+}
+
+.banner-image h1 {
+  color: white;
+  font-size: 56px;
+  font-family: sans-serif;
 }
