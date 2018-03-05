@@ -1,4 +1,5 @@
 .banner-image {
+  margin-bottom: 0;
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -8,7 +9,7 @@
 }
 
 .banner-image h1 {
-  color: white;
+  color: #ffffff;
   font-size: 56px;
   font-family: sans-serif;
 }
