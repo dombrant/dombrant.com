@@ -1,0 +1,10 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-resume {
+  background-color: #21d4fd;
+  /* fallback for browsers that do not support gradients */
+  background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
+}
