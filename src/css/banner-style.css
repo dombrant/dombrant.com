@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 200px;
+  width: 200px;
   height: 75px;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
