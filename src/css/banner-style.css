@@ -29,6 +29,11 @@
   border: 5px solid #ffffff;
 }
 
+.banner-button:hover {
+  background: #5ab0da;
+  cursor: pointer;
+}
+
 .banner-button h3 {
   font-size: 20px;
 }
