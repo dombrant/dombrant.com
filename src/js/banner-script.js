@@ -1,4 +1,6 @@
-const bannerButtonClick = () => {};
+const bannerButtonClick = () => {
+  smoothScroll(document.querySelector('.main-about'));
+};
 
 document
   .querySelector('.banner-button')
