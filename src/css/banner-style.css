@@ -32,3 +32,9 @@
   padding-left: 10%;
   padding-right: 10%;
 }
+
+.down-arrow path {
+  stroke: #ffffff;
+  fill: transparent;
+  stroke-width: 1px;
+}
