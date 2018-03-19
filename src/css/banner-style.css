@@ -1,7 +1,8 @@
 .banner {
   margin-bottom: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   background-image: url('../../img/palm trees-6EBBDE.jpg');
@@ -12,4 +13,22 @@
   color: #ffffff;
   font-size: 56px;
   font-family: 'Open Sans Bold', sans-serif;
+}
+
+.banner-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  height: 75px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background: Transparent;
+  border: 5px solid #ffffff;
+}
+
+.banner-button h3 {
+  padding-left: 10%;
+  padding-right: 10%;
 }
