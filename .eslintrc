@@ -1,0 +1,28 @@
+{
+  "extends": "eslint:recommended",
+
+  "env": {
+    "browser": true,
+    "node": true
+  },
+
+  "globals": {
+    "Promise": true,
+    "Set": true,
+    "smoothScroll": true
+  },
+
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+    "experimentalObjectRestSpread": true
+    }
+  },
+
+  "rules": {
+    "no-var": 2,
+    "no-unused-vars": 0,
+    "no-console": 0,
+    "no-alert": 1
+  }
+}
