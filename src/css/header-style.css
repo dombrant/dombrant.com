@@ -1,14 +1,25 @@
+@keyframes header-slide-down {
+  0% {
+    transform: translateY(-100vh);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.header-slide-down {
+  position: fixed;
+  top: 0;
+  animation: header-slide-down 0.5s;
+}
+
 header {
   z-index: 1;
   width: 100vw;
   height: 100px;
   color: #ffffff;
   background-color: #333333;
-}
-
-.header-fixed {
-  position: fixed;
-  top: 0;
 }
 
 .desktop-nav {
