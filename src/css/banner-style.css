@@ -18,10 +18,9 @@
 .banner-button {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 250px;
-  height: 125px;
+  height: 100px;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -35,12 +34,14 @@
 }
 
 .banner-button h3 {
+  margin-top: 5%;
+  margin-bottom: 5%;
   font-size: 20px;
 }
 
 .down-arrow {
   position: relative;
-  left: 40%;
+  left: 43%;
 }
 
 .down-arrow path {
