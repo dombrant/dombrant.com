@@ -3,8 +3,14 @@
   height: 100vh;
 }
 
-.main-resume {
-  background-color: #21d4fd;
+.main-about {
+  background: #cb2d3e;
   /* fallback for browsers that do not support gradients */
-  background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
+  background: linear-gradient(90deg, #ef473a, #cb2d3e);
+}
+
+.main-resume {
+  background: #21d4fd;
+  /* fallback for browsers that do not support gradients */
+  background: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
 }
