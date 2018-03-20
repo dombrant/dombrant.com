@@ -14,3 +14,15 @@
   /* fallback for browsers that do not support gradients */
   background: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
 }
+
+.main-work {
+  background: #5961f9;
+  /* fallback for browsers that do not support gradients */
+  background: linear-gradient(135deg, #ee9ae5 10%, #5961f9 100%);
+}
+
+.main-contact {
+  background: #2af598;
+  /* fallback for browsers that do not support gradients */
+  background: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
