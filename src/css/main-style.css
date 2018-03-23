@@ -6,19 +6,19 @@
 .main-about {
   background: #cb2d3e;
   /* fallback for browsers that do not support gradients */
-  background: linear-gradient(90deg, #ef473a, #cb2d3e);
+  background: linear-gradient(180deg, #ef473a, #cb2d3e);
 }
 
 .main-resume {
   background: #000dff;
   /* fallback for browsers that do not support gradients */
-  background: linear-gradient(135deg, #6b73ff 10%, #000dff 100%);
+  background: linear-gradient(180deg, #000dff 10%, #6b73ff 100%);
 }
 
 .main-work {
   background: #5961f9;
   /* fallback for browsers that do not support gradients */
-  background: linear-gradient(135deg, #ee9ae5 10%, #5961f9 100%);
+  background: linear-gradient(180deg, #ee9ae5 10%, #5961f9 100%);
 }
 
 .main-contact {
