@@ -1,5 +1,5 @@
 const bannerButtonClick = () => {
-  smoothScroll(document.querySelector('.main-about'), 500, 'linear');
+  smoothScroll(document.querySelector('.main-about'), 500, 'easeInQuad');
 };
 
 document
