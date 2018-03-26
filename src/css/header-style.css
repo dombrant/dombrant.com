@@ -36,6 +36,7 @@
 
 header {
   display: flex;
+  justify-content: center;
   align-items: center;
   z-index: 1;
   width: 100vw;
@@ -55,10 +56,6 @@ nav li {
   /* Set the li items' positions to relative so the underline below can work */
   margin-right: 30px;
   font-family: 'Open Sans', sans-serif;
-}
-
-nav li:first-child {
-  margin-left: 400px;
 }
 
 nav li:before {
