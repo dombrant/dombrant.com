@@ -6,6 +6,7 @@
   width: 100vw;
   height: 100vh;
   color: #ffffff;
+  text-align: center;
   text-shadow: 3px 3px 10px black;
   background-image: url('../../img/palm trees-6EBBDE.jpg');
   background-size: cover;
@@ -22,7 +23,6 @@
   width: 60vw;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  text-align: center;
 }
 
 .banner-button {
@@ -34,7 +34,6 @@
   height: 100px;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
   background: Transparent;
   border: 5px solid #ffffff;
 }
