@@ -3,5 +3,5 @@ const bannerButtonClick = () => {
 };
 
 document
-  .querySelector('.banner-button')
+  .querySelector('.banner button')
   .addEventListener('click', bannerButtonClick);
