@@ -1,10 +1,13 @@
 /*
  * CSS Reset
  */
+html,
 body {
   margin: 0;
   padding: 0;
   border: 0;
+  overflow-x: hidden;
+  /* Set the overflow-x: to hidden so that mobile devices don't have extra white space to the right */
 }
 
 a {
