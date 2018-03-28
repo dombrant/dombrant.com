@@ -36,7 +36,7 @@
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   z-index: 1;
   width: 100vw;
@@ -45,16 +45,51 @@ header {
   background-color: #333333;
 }
 
+@media (max-width: 550px) {
+  header,
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    display: none;
+  }
+}
+
+.header-db {
+  margin-left: 30%;
+  font-size: 32px;
+  font-family: 'Open Sans Bold', sans-serif;
+  font-weight: 700;
+}
+
+.menu-button {
+  margin-left: 30px;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+
+@media (min-width: 551px) {
+  .menu-button {
+    display: none;
+  }
+}
+
 nav ul {
   display: flex;
   list-style: none;
-  font-size: 24px;
+}
+
+.nav-shown {
+  display: flex;
 }
 
 nav li {
   position: relative;
   /* Set the li items' positions to relative so the underline below can work */
   margin-right: 30px;
+  font-size: 24px;
   font-family: 'Open Sans', sans-serif;
 }
 
