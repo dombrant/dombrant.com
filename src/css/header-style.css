@@ -93,6 +93,10 @@ header div svg {
   cursor: pointer;
 }
 
+.svg-hidden {
+  display: none;
+}
+
 @media (min-width: 551px) {
   .menu-button,
   header div svg {
