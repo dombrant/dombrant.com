@@ -2,11 +2,15 @@ const menuButtonClick = () => {
   document
     .querySelectorAll('nav li')
     .forEach(li => li.classList.toggle('nav-shown'));
+  document
+    .querySelectorAll('header div svg')
+    .forEach(svg => svg.classList.toggle('svg-hidden'));
 };
 
 const menuItems = [
   document.querySelector('.menu-button'),
-  document.querySelector('header div svg')
+  document.querySelector('.hamburger-svg'),
+  document.querySelector('.close-svg')
 ];
 
 menuItems.forEach(item => {
