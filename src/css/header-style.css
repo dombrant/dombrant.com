@@ -57,7 +57,6 @@ header > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
 }
 
 @media (max-width: 550px) {
@@ -75,7 +74,7 @@ header > div {
 
 @media (min-width: 551px) {
   .header-db {
-    margin-left: 30%;
+    margin-left: 30vw;
   }
 }
 
@@ -87,8 +86,16 @@ header > div {
   cursor: pointer;
 }
 
+header div svg {
+  margin-left: 10%;
+  width: 50px;
+  height: 50px;
+  fill: #ffffff;
+}
+
 @media (min-width: 551px) {
-  .menu-button {
+  .menu-button,
+  header div svg {
     display: none;
     margin-left: 0;
   }
@@ -100,7 +107,6 @@ nav {
 
 nav ul {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   list-style: none;
 }
