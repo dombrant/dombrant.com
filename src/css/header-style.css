@@ -90,6 +90,7 @@ header div svg {
   width: 50px;
   height: 50px;
   fill: #ffffff;
+  cursor: pointer;
 }
 
 @media (min-width: 551px) {
