@@ -6,7 +6,7 @@ const menuButtonClick = () => {
 
 const menuItems = [
   document.querySelector('.menu-button'),
-  document.querySelector('.hamburger-svg')
+  document.querySelector('header div svg')
 ];
 
 menuItems.forEach(item => {
