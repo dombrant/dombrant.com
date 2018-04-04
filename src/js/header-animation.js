@@ -10,7 +10,7 @@ document.body.appendChild(topHeader);
 
 const headerSlideAnimation = () => {
   const currentScrollTop = document.body.scrollTop;
-  if (header.dataset.device.toLowerCase() === 'desktop') {
+  if (document.body.dataset.device.toLowerCase() === 'desktop') {
     // If the user is on a desktop device
 
     if (currentScrollTop > lastScrollTop) {
