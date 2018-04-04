@@ -46,14 +46,6 @@ const headerSlideAnimation = () => {
 
       hideTopHeader();
     }
-  } else if (document.body.dataset.device.toLowerCase() === 'mobile') {
-    // If the user is on a mobile device
-
-    if (currentScrollTop > lastScrollTop) {
-      // If the user scrolls down
-
-      showTopHeader();
-    }
   }
 
   lastScrollTop = currentScrollTop;
