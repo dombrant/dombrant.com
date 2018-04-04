@@ -1,4 +1,4 @@
-const menuButtonClick = () => {
+const toggleMobileNav = () => {
   document
     .querySelectorAll('nav li')
     .forEach(li => li.classList.toggle('nav-shown'));
@@ -14,13 +14,13 @@ const menuItems = [
 ];
 
 menuItems.forEach(item => {
-  item.addEventListener('click', menuButtonClick);
+  item.addEventListener('click', toggleMobileNav);
   item.addEventListener('keypress', e => {
     const key = e.which || e.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
 
     if (key === 13) {
-      menuButtonClick();
+      toggleMobileNav();
     }
     // Key 13 is enter
   });
