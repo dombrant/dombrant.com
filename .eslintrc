@@ -7,9 +7,9 @@
   },
 
   "globals": {
-    "bannerButtonClick": true,
     "headerSlideDown": true,
     "Promise": true,
+    "scrollToAbout": true,
     "Set": true,
     "smoothScroll": true
   },
