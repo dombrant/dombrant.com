@@ -11,7 +11,8 @@
     "Promise": true,
     "scrollToAbout": true,
     "Set": true,
-    "smoothScroll": true
+    "smoothScroll": true,
+    "toggleMobileNav": true
   },
 
   "parserOptions": {

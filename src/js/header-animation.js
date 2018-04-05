@@ -24,7 +24,7 @@ const hideTopHeader = () => {
 
 const headerSlideAnimation = () => {
   const currentScrollTop = document.body.scrollTop;
-  if (document.body.dataset.device.toLowerCase() === 'desktop') {
+  if (window.innerWidth > 550) {
     // If the user is on a desktop device
 
     if (currentScrollTop > lastScrollTop) {
