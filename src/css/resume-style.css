@@ -1,0 +1,5 @@
+.main-resume {
+  background: #000dff;
+  /* fallback for browsers that do not support gradients */
+  background: linear-gradient(180deg, #000dff 10%, #6b73ff 100%);
+}

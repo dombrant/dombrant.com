@@ -1,0 +1,5 @@
+.main-contact {
+  background: #2af598;
+  /* fallback for browsers that do not support gradients */
+  background: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}

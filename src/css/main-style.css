@@ -2,27 +2,3 @@
   width: 100vw;
   height: 100vh;
 }
-
-.main-about {
-  background: #cb2d3e;
-  /* fallback for browsers that do not support gradients */
-  background: linear-gradient(180deg, #ef473a, #cb2d3e);
-}
-
-.main-resume {
-  background: #000dff;
-  /* fallback for browsers that do not support gradients */
-  background: linear-gradient(180deg, #000dff 10%, #6b73ff 100%);
-}
-
-.main-work {
-  background: #5961f9;
-  /* fallback for browsers that do not support gradients */
-  background: linear-gradient(180deg, #ee9ae5 10%, #5961f9 100%);
-}
-
-.main-contact {
-  background: #2af598;
-  /* fallback for browsers that do not support gradients */
-  background: linear-gradient(180deg, #2af598 0%, #009efd 100%);
-}

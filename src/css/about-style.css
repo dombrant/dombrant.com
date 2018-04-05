@@ -1,0 +1,5 @@
+.main-about {
+  background: #cb2d3e;
+  /* fallback for browsers that do not support gradients */
+  background: linear-gradient(180deg, #ef473a, #cb2d3e);
+}
