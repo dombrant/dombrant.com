@@ -4,8 +4,6 @@ const changeDevice = () => {
   } else {
     document.body.dataset.device = 'desktop';
   }
-
-  console.log(document.body.dataset.device);
 };
 
 window.addEventListener('resize', changeDevice);
