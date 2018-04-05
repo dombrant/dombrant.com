@@ -13,8 +13,28 @@ const menuItems = [
   document.querySelector('.close-svg')
 ];
 
+let toggleNavLabelCount = 0;
+// Even values are for when the aria-label for .menu-button will be 'show menu'
+// Odd values are for 'hide menu'
+
+const toggleNavLabel = () => {
+  const menuButton = document.querySelector('.menu-button');
+
+  if (toggleNavLabelCount % 2 === 0) {
+    menuButton.setAttribute('aria-label', 'hide menu');
+  } else {
+    menuButton.setAttribute('aria-label', 'show menu');
+  }
+
+  toggleNavLabelCount++;
+};
+
 menuItems.forEach(item => {
-  item.addEventListener('click', toggleMobileNav);
+  item.addEventListener('click', () => {
+    toggleMobileNav();
+    toggleNavLabel();
+  });
+
   item.addEventListener('keypress', e => {
     const key = e.which || e.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
