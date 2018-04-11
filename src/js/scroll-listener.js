@@ -7,6 +7,10 @@ window.addEventListener('scroll', () => {
 setInterval(() => {
   if (didScroll) {
     headerSlideAnimation();
+    // From header-animation.js
+
+    mainDivsH1FadeIn();
+    // From main-sections.js
     didScroll = false;
   }
 }, 200);
