@@ -6,7 +6,6 @@ const isInView = (element, includeMargins) => {
     // Set includeMargins to false by default
   }
 
-  const currentScrollTop = document.body.scrollTop;
   let elementScrollTop = element.getBoundingClientRect().top;
   // Calculate the distance from the top of element (NOT including its margin-top) to the top of the view
   let elmenentScrollBottom = element.getBoundingClientRect().bottom;
