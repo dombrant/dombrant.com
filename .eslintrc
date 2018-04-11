@@ -7,7 +7,7 @@
   },
 
   "globals": {
-    "headerSlideDown": true,
+    "headerSlideAnimation": true,
     "Promise": true,
     "scrollToAbout": true,
     "Set": true,
