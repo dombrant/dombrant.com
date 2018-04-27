@@ -7,9 +7,14 @@
   color: #ffffff;
   text-align: center;
   text-shadow: 3px 3px 10px black;
-  background-image: url('../../img/palm trees-6EBBDE.jpg');
+  background: #6eb8de;
   background-size: cover;
 }
+
+.banner-image-background {
+  background-image: url('../../img/palm trees-6EBBDE.jpg');
+}
+/* This class will be added after the window has loaded in banner.js */
 
 .banner h1 {
   margin-top: 150px;
