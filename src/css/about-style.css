@@ -3,3 +3,11 @@
   /* fallback for browsers that do not support gradients */
   background: linear-gradient(180deg, #ef473a, #cb2d3e);
 }
+
+.main-about > p {
+  margin-bottom: 0;
+  margin-left: 5vw;
+  width: 80vw;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
