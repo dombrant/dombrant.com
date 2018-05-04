@@ -45,6 +45,7 @@
 
 @media (max-width: 550px) {
   .banner button {
+    opacity: 1;
     margin-top: 10vh;
   }
 }
