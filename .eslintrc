@@ -9,7 +9,7 @@
   "globals": {
     "headerSlideAnimation": true,
     "isInView": true,
-    "mainDivsH1FadeIn": true,
+    "mainDivsFadeIn": true,
     "Promise": true,
     "scrollToAbout": true,
     "Set": true,

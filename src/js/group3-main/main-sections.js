@@ -1,7 +1,9 @@
-const mainDivsH1FadeIn = () => {
+const mainDivsFadeIn = () => {
   document.querySelectorAll('.main > div').forEach(div => {
     if (isInView(div)) {
-      div.querySelector('h1').classList.add('fade-in-on-scroll');
+      div
+        .querySelectorAll('*')
+        .forEach(element => element.classList.add('fade-in-on-scroll'));
     }
   });
 };
