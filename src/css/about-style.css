@@ -4,10 +4,29 @@
   background: linear-gradient(180deg, #ef473a, #cb2d3e);
 }
 
-.main-about > p {
+.main-about-content {
+  display: flex;
+}
+
+.main-about-content > img {
+  margin-top: 5vh;
+  margin-left: 25px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.main-about-content > div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+.main-about-content > div > p {
   margin-bottom: 0;
   margin-left: 5vw;
-  width: 80vw;
+  margin-right: 25px;
   font-family: 'Merriweather', serif;
   font-size: 20px;
 }
