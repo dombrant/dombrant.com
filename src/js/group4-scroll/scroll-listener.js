@@ -1,16 +1,15 @@
-let didScroll = false;
+let mainDivsFadeInTimeOut;
+// Variable to store the value of the requestAnimationFrame called below
 
 window.addEventListener('scroll', () => {
-  didScroll = true;
-});
+  requestAnimationFrame(headerSlideAnimation);
+  // From header-animation.js
 
-setInterval(() => {
-  if (didScroll) {
-    requestAnimationFrame(headerSlideAnimation);
-    // From header-animation.js
-
-    requestAnimationFrame(mainDivsFadeIn);
-    // From main-sections.js
-    didScroll = false;
+  if (mainDivsFadeIn.completed) {
+    cancelAnimationFrame(mainDivsFadeInTimeOut);
+    // Cancel the requestAnimationFrame for mainDivsFadeIn once all the main sections are shown
   }
-}, 200);
+
+  mainDivsFadeInTimeOut = requestAnimationFrame(mainDivsFadeIn.run);
+  // From main-sections.js
+});
