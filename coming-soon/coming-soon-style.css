@@ -89,8 +89,16 @@ p {
   color: #1da0f1;
 }
 
-.homepageLink {
+.homepage-link {
   color: #ff9800;
+}
+
+.github-link,
+.twitter-link,
+.homepage-link {
+  padding: 2px;
+  background-color: #ffffff;
+  border-radius: 5px;
 }
 
 .svg-container {
@@ -100,8 +108,11 @@ p {
 }
 
 .svg-container svg {
+  padding: 2px;
   width: 50px;
   height: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
 .twitter-svg {
