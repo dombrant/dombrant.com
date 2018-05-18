@@ -37,11 +37,16 @@ a:visited {
   min-height: 100vh;
   text-align: center;
   color: white;
-  background-image: url('https://media.githubusercontent.com/media/dombrant/dombrant.com/master/img/palm-trees-6EBBDE.jpg');
+  background: #6eb8de;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.banner-image-background {
+  background: url('https://media.githubusercontent.com/media/dombrant/dombrant.com/master/img/palm-trees-6EBBDE.jpg');
+}
+/* This class will be added after the window has loaded in coming-soon.js */
 
 h1 {
   margin-top: 15vh;
