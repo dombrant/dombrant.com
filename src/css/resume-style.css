@@ -4,6 +4,13 @@
   background: linear-gradient(180deg, #000dff 10%, #6b73ff 100%);
 }
 
+.main-resume > hr {
+  opacity: 0;
+  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
+  width: 85vw;
+  color: #333333;
+}
+
 .experience-h3 {
   opacity: 0;
   /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
@@ -35,9 +42,16 @@
   font-size: 32px;
 }
 
-.job-title > p {
+.job-title > p:nth-child(2) {
+  margin-top: 0;
   color: #80deea;
   font-family: 'Open Sans', sans-serif;
+}
+
+.job-title > p:last-child {
+  width: 40vw;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
 }
 
 .job-dates {
