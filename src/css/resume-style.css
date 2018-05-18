@@ -30,13 +30,14 @@
 }
 
 .job-title > h3 {
+  margin-bottom: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 32px;
 }
 
 .job-title > p {
-  color: #ce93d8;
-  font-family: 'Merriweather', serif;
+  color: #80deea;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .job-dates {
