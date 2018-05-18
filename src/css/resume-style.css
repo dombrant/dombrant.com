@@ -3,3 +3,56 @@
   /* fallback for browsers that do not support gradients */
   background: linear-gradient(180deg, #000dff 10%, #6b73ff 100%);
 }
+
+.experience-h3 {
+  opacity: 0;
+  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
+  margin-top: 5%;
+  margin-bottom: 0;
+  padding-left: 10%;
+  font-size: 44px;
+  font-family: 'Open Sans Bold', sans-serif;
+}
+
+.work-experience {
+  opacity: 0;
+  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 80vw;
+}
+
+.job-title {
+  opacity: 0;
+  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
+}
+
+.job-title > h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+}
+
+.job-title > p {
+  color: #ce93d8;
+  font-family: 'Merriweather', serif;
+}
+
+.job-dates {
+  opacity: 0;
+  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 125px;
+  height: 125px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.job-dates > p {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  text-align: center;
+}
