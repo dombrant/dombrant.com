@@ -38,13 +38,11 @@ a:visited {
   text-align: center;
   color: white;
   background: #6eb8de;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .banner-image-background {
   background: url('https://media.githubusercontent.com/media/dombrant/dombrant.com/master/img/palm-trees-6EBBDE.jpg');
+  background-size: cover;
 }
 /* This class will be added after the window has loaded in coming-soon.js */
 
