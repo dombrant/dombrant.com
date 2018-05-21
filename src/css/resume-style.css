@@ -96,6 +96,20 @@
   color: #ff5135;
 }
 
+.skills-svgs {
+  opacity: 0;
+  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.skills-svgs > svg {
+  margin-left: 5vw;
+  width: 150px;
+  height: 150px;
+}
+
 .skills-container > ul {
   opacity: 0;
   /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
