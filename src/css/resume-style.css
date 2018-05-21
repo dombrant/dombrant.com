@@ -12,15 +12,18 @@
   border: 3px solid black;
 }
 
-.experience-h3 {
+.subheader-h3 {
   opacity: 0;
   /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
   margin-top: 5%;
   margin-bottom: 0;
   padding-left: 10%;
-  color: #80deea;
   font-size: 44px;
   font-family: 'Open Sans Bold', sans-serif;
+}
+
+.experience-h3 {
+  color: #80deea;
 }
 
 .work-experience {
@@ -87,4 +90,8 @@
   .job-description {
     width: 80vw;
   }
+}
+
+.skills-h3 {
+  color: #ff5135;
 }
