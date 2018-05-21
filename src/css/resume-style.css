@@ -95,3 +95,16 @@
 .skills-h3 {
   color: #ff5135;
 }
+
+.skills-container > ul {
+  opacity: 0;
+  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
+  margin-bottom: 0;
+  padding-left: 10%;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+
+.skills-container > ul > li {
+  margin-top: 25px;
+}
