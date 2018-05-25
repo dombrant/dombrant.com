@@ -101,13 +101,14 @@
   /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
   display: flex;
   justify-content: center;
+  margin-top: 50px;
   width: 100vw;
 }
 
-.resume-svgs > svg {
+.resume-svgs > object {
   margin-left: 5vw;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 .skills-container > ul {
