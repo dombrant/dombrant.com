@@ -81,6 +81,7 @@
 }
 
 .job-description {
+  margin-bottom: 25px;
   width: 40vw;
   font-size: 18px;
   font-family: 'Merriweather', serif;
@@ -111,16 +112,16 @@
   height: 100px;
 }
 
-.skills-container > ul {
+.resume-list {
   opacity: 0;
   /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
-  margin-bottom: 0;
+  margin-bottom: 25px;
   padding-left: 10%;
   font-family: 'Merriweather', serif;
   font-size: 20px;
 }
 
-.skills-container > ul > li {
+.resume-list > li {
   margin-top: 25px;
 }
 
