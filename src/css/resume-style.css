@@ -128,3 +128,15 @@
 .software-h3 {
   color: #c6ff00;
 }
+
+.resume-pdf-link {
+  padding-bottom: 25px;
+  width: 100vw;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.resume-pdf-link > p {
+  margin-bottom: 0;
+}
