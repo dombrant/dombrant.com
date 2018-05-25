@@ -112,6 +112,13 @@
   height: 125px;
 }
 
+@media (max-width: 650px) {
+  .resume-svgs > object {
+    width: 75px;
+    height: 75px;
+  }
+}
+
 .resume-list {
   opacity: 0;
   /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
