@@ -136,6 +136,7 @@
 
 .resume-list > li {
   margin-top: 25px;
+  color: #ffffff;
 }
 
 .software-h3 {
@@ -152,4 +153,9 @@
 
 .resume-pdf-link > p {
   margin-bottom: 0;
+  color: #ffffff;
+}
+
+.resume-pdf-link > p > a {
+  color: #ffffff;
 }
