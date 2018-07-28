@@ -13,6 +13,7 @@
     "Promise": true,
     "scrollToAbout": true,
     "Set": true,
+    "showTopHeader": true,
     "smoothScroll": true,
     "toggleMobileNav": true
   },

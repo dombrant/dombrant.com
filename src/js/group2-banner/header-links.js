@@ -21,6 +21,7 @@ document.querySelectorAll('nav li:first-child').forEach(element => {
 
     if (key === 13) {
       scrollToAbout();
+      // From banner.js
       toggleMobileNav();
     }
     // Key 13 is enter

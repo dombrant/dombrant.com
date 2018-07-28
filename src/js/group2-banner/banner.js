@@ -10,7 +10,12 @@ window.onload = () => {
 // The class banner-image-background is in banner-style.css
 
 const scrollToAbout = () => {
-  smoothScroll(document.querySelector('.main-about'), 500, 'easeInQuad');
+  smoothScroll(document.querySelector('.main-about'), 500, 'easeInQuad', () => {
+    showTopHeader();
+    // Callback to be executed after the call to smoothScroll finishes
+    // Show topHeader so that when reaching the about section, the user will not have to scroll down to get it to be visible
+    // From header-animation.js
+  });
 };
 
 document
