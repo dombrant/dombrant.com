@@ -10,13 +10,13 @@ const scrollToContact = () => {
   smoothScroll(document.querySelector('.main-contact'), 500, 'easeInQuad');
 };
 
-document.querySelectorAll('nav li:first-child').forEach(i => {
-  i.addEventListener('click', () => {
+document.querySelectorAll('nav li:first-child').forEach(element => {
+  element.addEventListener('click', () => {
     scrollToAbout();
     toggleMobileNav();
   });
-  i.addEventListener('keypress', e => {
-    const key = e.which || e.keyCode;
+  element.addEventListener('keypress', event => {
+    const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
 
     if (key === 13) {
@@ -28,13 +28,13 @@ document.querySelectorAll('nav li:first-child').forEach(i => {
 });
 // Instead of creating a new function for the about button, reuse the one for the banner button from banner-script.js
 
-document.querySelectorAll('nav li:nth-child(2)').forEach(i => {
-  i.addEventListener('click', () => {
+document.querySelectorAll('nav li:nth-child(2)').forEach(element => {
+  element.addEventListener('click', () => {
     scrollToResume();
     toggleMobileNav();
   });
-  i.addEventListener('keypress', e => {
-    const key = e.which || e.keyCode;
+  element.addEventListener('keypress', event => {
+    const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
 
     if (key === 13) {
@@ -45,13 +45,13 @@ document.querySelectorAll('nav li:nth-child(2)').forEach(i => {
   });
 });
 
-document.querySelectorAll('nav li:nth-child(3)').forEach(i => {
-  i.addEventListener('click', () => {
+document.querySelectorAll('nav li:nth-child(3)').forEach(element => {
+  element.addEventListener('click', () => {
     scrollToWork();
     toggleMobileNav();
   });
-  i.addEventListener('keypress', e => {
-    const key = e.which || e.keyCode;
+  element.addEventListener('keypress', event => {
+    const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
 
     if (key === 13) {
@@ -62,13 +62,13 @@ document.querySelectorAll('nav li:nth-child(3)').forEach(i => {
   });
 });
 
-document.querySelectorAll('nav li:last-child').forEach(i => {
-  i.addEventListener('click', () => {
+document.querySelectorAll('nav li:last-child').forEach(element => {
+  element.addEventListener('click', () => {
     scrollToContact();
     toggleMobileNav();
   });
-  i.addEventListener('keypress', e => {
-    const key = e.which || e.keyCode;
+  element.addEventListener('keypress', event => {
+    const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
 
     if (key === 13) {
