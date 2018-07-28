@@ -1,3 +1,5 @@
+// scrollToAbout() is found in 2-banner.js
+
 const scrollToResume = () => {
   smoothScroll(document.querySelector('.main-resume'), 500, 'easeInQuad');
 };
