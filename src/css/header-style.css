@@ -1,4 +1,4 @@
-@keyframes header-slide-down {
+/* @keyframes header-slide-down {
   0% {
     transform: translateY(-100vh);
   }
@@ -27,9 +27,10 @@
 .header-slide-up {
   top: -100vh;
   animation: header-slide-up 0.5s;
-}
+} */
 
 header {
+  position: fixed;
   display: flex;
   align-items: center;
   z-index: 1;
@@ -38,11 +39,6 @@ header {
   color: #ffffff;
   background-color: #333333;
   transition: height 2s ease-in-out;
-}
-
-.header-fixed {
-  position: fixed;
-  /* top: 0; */
 }
 
 @media (max-width: 550px) {

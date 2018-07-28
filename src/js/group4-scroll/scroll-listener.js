@@ -1,8 +1,7 @@
-let mainDivsFadeInTimeOut;
-// Variable to store the value of the requestAnimationFrame called below
-
 window.addEventListener('scroll', () => {
-  requestAnimationFrame(headerSlideAnimation);
+  let mainDivsFadeInTimeOut;
+  // Variable to store the value of the requestAnimationFrame called below
+  // requestAnimationFrame(headerSlideAnimation);
   // From header-animation.js
 
   if (mainDivsFadeIn.completed) {

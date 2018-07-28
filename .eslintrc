@@ -12,6 +12,7 @@
     "mainDivsFadeIn": true,
     "Promise": true,
     "scrollToAbout": true,
+    "scrollToElement": true,
     "Set": true,
     "showHeader": true,
     "smoothScroll": true,

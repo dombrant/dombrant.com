@@ -1,20 +1,22 @@
+//scrollToElement is found in 1-scroll-to-element.js
 // scrollToAbout() is found in 2-banner.js
 
 const scrollToResume = () => {
-  smoothScroll(document.querySelector('.main-resume'), 500, 'easeInQuad');
+  scrollToElement('.main-resume');
 };
 
 const scrollToWork = () => {
-  smoothScroll(document.querySelector('.main-work'), 500, 'easeInQuad');
+  scrollToElement('.main-work');
 };
 
 const scrollToContact = () => {
-  smoothScroll(document.querySelector('.main-contact'), 500, 'easeInQuad');
+  scrollToElement('.main-contact');
 };
 
 document.querySelectorAll('nav li:first-child').forEach(element => {
   element.addEventListener('click', () => {
     scrollToAbout();
+    // From banner.js
     toggleMobileNav();
   });
   element.addEventListener('keypress', event => {
