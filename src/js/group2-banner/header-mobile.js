@@ -13,11 +13,11 @@ const menuItems = [
   document.querySelector('.close-svg')
 ];
 
-let toggleNavLabelCount = 0;
-// Even values are for when the aria-label for .menu-button will be 'show menu'
-// Odd values are for 'hide menu'
-
 const toggleNavLabel = () => {
+  let toggleNavLabelCount = 0;
+  // Even values are for when the aria-label for .menu-button will be 'show menu'
+  // Odd values are for 'hide menu'
+
   const menuButton = document.querySelector('.menu-button');
 
   if (toggleNavLabelCount % 2 === 0) {
