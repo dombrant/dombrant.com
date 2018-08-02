@@ -3,3 +3,28 @@
   /* fallback for browsers that do not support gradients */
   background: linear-gradient(180deg, #ee9ae5 10%, #5961f9 100%);
 }
+
+.code-project {
+  opacity: 0;
+  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
+  margin-left: 15vw;
+  display: flex;
+}
+
+.code-project-header > h3 {
+  /* Styling borrowed from the .job-title > h3 section in resume-style.css */
+  margin-bottom: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  /* Include padding left/right declarations to make the white background extend out slightly */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 42px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.code-project-header > p {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
