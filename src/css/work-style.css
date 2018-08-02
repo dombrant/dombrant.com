@@ -27,6 +27,8 @@
 }
 
 .code-project-header > p {
+  margin-top: 5px;
+  margin-bottom: 0;
   font-family: 'Merriweather', serif;
   font-size: 20px;
 }
