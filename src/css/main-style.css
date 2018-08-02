@@ -24,6 +24,15 @@
   }
 }
 
+.main > div > hr {
+  /* Share stlying with the hr elements in main sections */
+  opacity: 0;
+  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
+  margin-bottom: 0;
+  width: 85vw;
+  border: 3px solid black;
+}
+
 .main p {
   line-height: 150%;
 }

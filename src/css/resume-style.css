@@ -4,14 +4,6 @@
   background: linear-gradient(180deg, #000dff 10%, #6b73ff 100%);
 }
 
-.main-resume > hr {
-  opacity: 0;
-  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
-  margin-bottom: 0;
-  width: 85vw;
-  border: 3px solid black;
-}
-
 .subheader-h3 {
   opacity: 0;
   /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
