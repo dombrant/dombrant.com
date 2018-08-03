@@ -49,5 +49,11 @@
 }
 
 .code-project-image > a > img {
+  margin-bottom: 10px;
   width: 500px;
+  transition: all 0.2s ease-in-out;
+}
+
+.code-project-image > a > img:hover {
+  box-shadow: 0px 5px 5px black;
 }
