@@ -13,6 +13,10 @@
   justify-content: space-between;
 }
 
+.code-project-header {
+  width: 350px;
+}
+
 .code-project-header > h3 {
   /* Styling borrowed from the .job-title > h3 section in resume-style.css */
   margin-bottom: 0;
