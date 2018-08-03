@@ -20,7 +20,7 @@
 
 .code-project-header > h3 {
   /* Styling borrowed from the .job-title > h3 section in resume-style.css */
-  margin-bottom: 0;
+  margin-bottom: 20px;
   padding-right: 10px;
   padding-left: 10px;
   /* Include padding left/right declarations to make the white background extend out slightly */
@@ -55,5 +55,5 @@
 }
 
 .code-project-image > a > img:hover {
-  box-shadow: 0px 5px 5px black;
+  box-shadow: 0px 10px 5px;
 }
