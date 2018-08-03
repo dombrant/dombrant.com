@@ -7,7 +7,7 @@
 .code-project {
   opacity: 0;
   /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
-  margin-top: 20vh;
+  margin-bottom: 20vh;
   margin-left: 10vw;
   width: 80vw;
   display: flex;
