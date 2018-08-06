@@ -61,6 +61,12 @@ Set the padding-botton so that their is a little whitespace between the bottom o
   transition: all 0.2s ease-in-out;
 }
 
+.project-image-moon > a > img {
+  width: 400px;
+}
+/* Make the moon image smaller than all other project images, because the moon is more square than the others
+Therefore when at 500px wide, it is a little taller than the other images */
+
 .project-image > a > img:hover {
   box-shadow: 0px 10px 5px;
 }
