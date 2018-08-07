@@ -3,3 +3,19 @@
   /* fallback for browsers that do not support gradients */
   background: linear-gradient(180deg, #2af598 0%, #009efd 100%);
 }
+
+.contact-paragraph-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-paragraph {
+  margin-top: 5vh;
+  width: 70vw;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+
+.email-link {
+  font-weight: bold;
+}
