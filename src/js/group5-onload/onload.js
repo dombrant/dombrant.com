@@ -7,4 +7,7 @@ window.onload = () => {
   };
   // Change the background of .banner from a blue color to the image with palm trees
   // The class banner-image-background is in banner-style.css
+
+  document.querySelector('.email-link').innerHTML =
+    '<a href="mailto:dombrant@gmail.com?subject=Hello Dominic!"> dombrant[at]gmail[dot]com</a>';
 };
