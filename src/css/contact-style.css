@@ -37,7 +37,33 @@
 }
 
 .contact-svgs > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 5vw;
+  width: 110px;
+  height: 110px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.contact-svgs > a > svg {
   width: 100px;
   height: 100px;
+}
+
+.contact-svgs-twitter {
+  fill: #1da1f2;
+}
+
+.contact-svgs-linkedin {
+  fill: #0077b5;
+}
+
+.contact-svgs-github {
+  fill: #181717;
+}
+
+.contact-svgs-behance {
+  fill: #1769ff;
 }
