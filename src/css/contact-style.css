@@ -26,3 +26,18 @@
 .email-link {
   font-weight: bold;
 }
+
+.contact-svgs {
+  opacity: 0;
+  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  width: 100vw;
+}
+
+.contact-svgs > img {
+  margin-left: 5vw;
+  width: 100px;
+  height: 100px;
+}
