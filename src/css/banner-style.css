@@ -24,6 +24,10 @@
   font-weight: 700;
 }
 
+.banner > h1 > span {
+  color: #fc7753;
+}
+
 .banner > p {
   width: 60vw;
   font-family: 'Open Sans', sans-serif;
