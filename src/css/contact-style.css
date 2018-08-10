@@ -36,7 +36,7 @@
   width: 100vw;
 }
 
-.contact-svgs > svg {
+.contact-svgs > a {
   margin-left: 5vw;
   width: 100px;
   height: 100px;
