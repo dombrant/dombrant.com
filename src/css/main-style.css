@@ -3,16 +3,19 @@
   min-height: 100vh;
 }
 
-.main > div > h1 {
+.main > div > * {
   opacity: 0;
   /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
+}
+
+.main > div > h1 {
   display: flex;
   width: 100vw;
   margin: 0;
   padding-top: 50px;
   padding-left: 10%;
   font-size: 56px;
-  font-family: 'Open Sans Bold', sans-serif;
+  font-family: "Open Sans Bold", sans-serif;
   font-weight: 700;
 }
 
@@ -26,8 +29,6 @@
 
 .main > div > hr {
   /* Share stlying with the hr elements in main sections */
-  opacity: 0;
-  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
   margin-bottom: 0;
   width: 85vw;
   border: 3px solid black;
@@ -38,11 +39,9 @@
 }
 
 .subheader-h3 {
-  opacity: 0;
-  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
   margin-top: 5%;
   margin-bottom: 0;
   padding-left: 10%;
   font-size: 44px;
-  font-family: 'Open Sans Bold', sans-serif;
+  font-family: "Open Sans Bold", sans-serif;
 }

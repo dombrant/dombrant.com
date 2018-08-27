@@ -5,8 +5,6 @@
 }
 
 .project {
-  opacity: 0;
-  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
   margin-bottom: 20vh;
   margin-left: 10vw;
   width: 80vw;
@@ -31,7 +29,7 @@ Set the padding-botton so that their is a little whitespace between the bottom o
   padding-right: 10px;
   padding-left: 10px;
   /* Include padding left/right declarations to make the white background extend out slightly */
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 42px;
   text-align: center;
   background: #ffffff;
@@ -41,7 +39,7 @@ Set the padding-botton so that their is a little whitespace between the bottom o
 .project-header > p {
   margin-top: 5px;
   margin-bottom: 0;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 20px;
 }
 
@@ -51,7 +49,7 @@ Set the padding-botton so that their is a little whitespace between the bottom o
 }
 
 .project-image > a {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 20px;
 }
 

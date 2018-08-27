@@ -4,14 +4,7 @@
   background: linear-gradient(180deg, #2af598 0%, #009efd 100%);
 }
 
-.main-contact > h1 {
-  opacity: 0;
-  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
-}
-
 .contact-paragraph-container {
-  opacity: 0;
-  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
   display: flex;
   justify-content: space-around;
 }
@@ -19,7 +12,7 @@
 .contact-paragraph {
   margin-top: 5vh;
   width: 70vw;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 20px;
 }
 
@@ -28,8 +21,6 @@
 }
 
 .contact-svgs {
-  opacity: 0;
-  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
   display: flex;
   justify-content: center;
   margin-top: 10vh;

@@ -16,8 +16,6 @@
 }
 
 .main-about-content > img {
-  opacity: 0;
-  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
   margin-top: 5vh;
   margin-left: 25px;
   width: 350px;
@@ -34,8 +32,6 @@
 }
 
 .main-about-content > div {
-  opacity: 0;
-  /* Set opacity to 0 as it will changed once the fade-in-on-scroll animation is applied */
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
@@ -57,6 +53,6 @@
   margin-bottom: 0;
   margin-left: 5vw;
   margin-right: 25px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 20px;
 }
