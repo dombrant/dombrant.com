@@ -2,13 +2,15 @@ const mainDivsFadeIn = {
   completed: false,
 
   run() {
-    const sections = document.querySelectorAll('.main > div');
+    const sections = document.querySelectorAll(".main > div");
 
-    sections.forEach((div, index) => {
-      if (isInView(div)) {
-        div
-          .querySelectorAll('*')
-          .forEach(element => element.classList.add('fade-in-on-scroll'));
+    for (let [index, section] of sections.entries()) {
+      // Use destructing along with .entries to access both the element and the index below
+
+      if (isInView(section)) {
+        section
+          .querySelectorAll("*")
+          .forEach(element => element.classList.add("fade-in-on-scroll"));
 
         if (index === sections.length - 1) {
           // If the animation is being applied to the last element in the sections array
@@ -18,6 +20,6 @@ const mainDivsFadeIn = {
           // This will be used in scroll-listener.js to stop the requestAnimationFrame for this function
         }
       }
-    });
+    }
   }
 };
