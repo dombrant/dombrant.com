@@ -10,8 +10,8 @@ const mainDivsFadeIn = {
       if (isInView(section)) {
         section
           .querySelectorAll("*")
-          .forEach(element => element.classList.add("fade-in-on-scroll"));
-        // From lib/fade-in-on-scroll.css
+          .forEach(element => element.classList.add("fade-in-slide-up"));
+        // From lib/fade-in-slide-up.css
 
         if (index === sections.length - 1) {
           // If the animation is being applied to the last element in the sections array
