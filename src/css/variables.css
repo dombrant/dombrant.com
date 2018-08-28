@@ -1,0 +1,7 @@
+/* File to store all root scoped variables */
+
+:root {
+  --h1-font-size: 56px;
+  --h3-font-size: 44px;
+  --body-font-size: 20px;
+}
