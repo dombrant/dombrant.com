@@ -29,7 +29,7 @@ Set the padding-botton so that their is a little whitespace between the bottom o
   padding-right: 10px;
   padding-left: 10px;
   /* Include padding left/right declarations to make the white background extend out slightly */
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--header-font);
   font-size: var(--h3-font-size);
   text-align: center;
   background: #ffffff;
@@ -39,7 +39,7 @@ Set the padding-botton so that their is a little whitespace between the bottom o
 .project-header > p {
   margin-top: 5px;
   margin-bottom: 0;
-  font-family: "Merriweather", serif;
+  font-family: var(--body-font);
   font-size: var(--body-font-size);
 }
 
@@ -49,7 +49,7 @@ Set the padding-botton so that their is a little whitespace between the bottom o
 }
 
 .project-image > a {
-  font-family: "Merriweather", serif;
+  font-family: var(--body-font);
   font-size: var(--body-font-size);
 }
 

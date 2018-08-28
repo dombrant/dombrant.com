@@ -1,8 +1,12 @@
 /* File to store all root scoped variables */
 
 :root {
+  --header-font-bold: "Open Sans Bold", sans-serif;
+  --header-font: "Open Sans", sans-serif;
+  --paragraph-font: "Merriweather", serif;
   --h1-font-size: 56px;
   --h3-font-size: 44px;
   --body-font-size: 20px;
+  /* Rename to --paragraph-font-size */
   --main-blue: #6eb8de;
 }

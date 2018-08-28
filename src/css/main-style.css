@@ -15,7 +15,7 @@
   padding-top: 50px;
   padding-left: 10%;
   font-size: var(--h1-font-size);
-  font-family: "Open Sans Bold", sans-serif;
+  font-family: var(--header-font-bold);
   font-weight: 700;
 }
 
@@ -43,5 +43,5 @@
   margin-bottom: 0;
   padding-left: 10%;
   font-size: var(--h3-font-size);
-  font-family: "Open Sans Bold", sans-serif;
+  font-family: var(--header-font-bold);
 }

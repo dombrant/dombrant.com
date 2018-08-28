@@ -20,7 +20,7 @@
   margin-top: 150px;
   margin-bottom: 0;
   font-size: var(--h1-font-size);
-  font-family: "Open Sans Bold", sans-serif;
+  font-family: var(--header-font-bold);
   font-weight: 700;
 }
 
@@ -30,7 +30,7 @@
 
 .banner > p {
   width: 60vw;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--header-font);
   font-size: var(--body-font-size);
 }
 
@@ -42,7 +42,7 @@
   width: 250px;
   height: 100px;
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--header-font-bold);
   background: Transparent;
   border: 5px solid #ffffff;
 }
