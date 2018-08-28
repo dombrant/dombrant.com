@@ -6,7 +6,7 @@
   --paragraph-font: "Merriweather", serif;
   --h1-font-size: 56px;
   --h3-font-size: 44px;
-  --body-font-size: 20px;
+  --paragraph-font-size: 20px;
   /* Rename to --paragraph-font-size */
   --main-blue: #6eb8de;
 }

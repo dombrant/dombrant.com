@@ -40,7 +40,7 @@ Set the padding-botton so that their is a little whitespace between the bottom o
   margin-top: 5px;
   margin-bottom: 0;
   font-family: var(--body-font);
-  font-size: var(--body-font-size);
+  font-size: var(--paragraph-font-size);
 }
 
 .project-image {
@@ -50,7 +50,7 @@ Set the padding-botton so that their is a little whitespace between the bottom o
 
 .project-image > a {
   font-family: var(--body-font);
-  font-size: var(--body-font-size);
+  font-size: var(--paragraph-font-size);
 }
 
 .project-image > a > img {

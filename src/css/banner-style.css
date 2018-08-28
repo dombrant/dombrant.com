@@ -31,7 +31,7 @@
 .banner > p {
   width: 60vw;
   font-family: var(--header-font);
-  font-size: var(--body-font-size);
+  font-size: var(--paragraph-font-size);
 }
 
 .banner > button {
@@ -62,7 +62,7 @@
 .banner button h3 {
   margin-top: 5%;
   margin-bottom: 5%;
-  font-size: var(--body-font-size);
+  font-size: var(--paragraph-font-size);
 }
 
 .down-arrow {
