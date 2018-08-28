@@ -7,7 +7,7 @@
   color: #ffffff;
   text-align: center;
   text-shadow: 3px 3px 10px black;
-  background: #6eb8de;
+  background: var(--main-blue);
   background-size: cover;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .banner button:hover {
-  background: #5ab0da;
+  background: var(--main-blue);
   cursor: pointer;
 }
 
