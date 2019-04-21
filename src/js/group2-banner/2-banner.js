@@ -1,7 +1,7 @@
 const scrollToAbout = () => {
-  scrollToElement('.main-about');
+  scrollToElement(".main-about");
 };
 
 document
-  .querySelector('.banner button')
-  .addEventListener('click', scrollToAbout);
+  .querySelector(".banner button")
+  .addEventListener("click", scrollToAbout);

@@ -1,5 +1,5 @@
 const isInView = (element, includeMargins) => {
-  'use strict';
+  "use strict";
 
   if (includeMargins === undefined) {
     includeMargins = false;
