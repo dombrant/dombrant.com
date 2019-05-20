@@ -3,7 +3,7 @@
 :root {
   --header-font-bold: "Open Sans Bold", sans-serif;
   --header-font: "Open Sans", sans-serif;
-  --paragraph-font: "Merriweather", serif;
+  --body-font: "Merriweather", serif;
   --h1-font-size: 56px;
   --h3-font-size: 44px;
   --paragraph-font-size: 20px;
