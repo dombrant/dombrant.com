@@ -1,0 +1,9 @@
+{
+  "name": "dombrant.com",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.html",
+  "repository": "https://github.com/dombrant/dombrant.com.git",
+  "author": "Dominic Brant <dombrant@gmail.com>",
+  "license": "MIT"
+}
