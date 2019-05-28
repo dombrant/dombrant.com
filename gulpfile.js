@@ -7,7 +7,6 @@ const postcss = require("gulp-postcss");
 const uncss = require("postcss-uncss");
 const cssnano = require("cssnano");
 const concat = require("gulp-concat");
-const rename = require("gulp-rename");
 const stripDebug = require("gulp-strip-debug");
 const terser = require("gulp-terser");
 const htmlReplace = require("gulp-html-replace");
