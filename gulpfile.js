@@ -38,7 +38,12 @@ const css = async () => {
   const postCssPlugins = [
     uncss({
       html: ["src/index.html"],
-      ignore: [".banner-image-background", ".no-blur", ".blur-out"]
+      ignore: [
+        ".banner-image-background",
+        ".no-blur",
+        ".blur-out",
+        ".fade-in-slide-up"
+      ]
     }),
     cssnano()
   ];
