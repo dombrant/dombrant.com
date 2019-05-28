@@ -45,7 +45,7 @@ const css = async () => {
 
   return new Promise((resolve, reject) => {
     gulp
-      .src("src/**/*.css")
+      .src("src/css/**/*.css")
       .pipe(
         plumber({
           errorHandler: plumberErrorHandler
@@ -66,7 +66,7 @@ const js = async () => {
 
   return new Promise((resolve, reject) => {
     gulp
-      .src("src/**/*.js")
+      .src("src/js/**/*.js")
       .pipe(
         plumber({
           errorHandler: plumberErrorHandler
@@ -76,7 +76,7 @@ const js = async () => {
       .pipe(stripDebug())
       .pipe(terser())
       // .pipe(sourcemaps.write())
-      .pipe(rename("script.min.js"))
+      .pipe(concat("script.min.js"))
       .pipe(gulp.dest("dist"))
       .on("error", reject)
       .on("end", resolve);
@@ -125,9 +125,9 @@ const logSize = () =>
   });
 
 const watch = () => {
-  gulp.watch("src/*.css", gulp.series(css, logSize));
-  gulp.watch("src/*.js", gulp.series(js, logSize));
-  gulp.watch("src/Index.html", gulp.series(html, logSize));
+  gulp.watch("src/css/**/*.css", gulp.series(css, logSize));
+  gulp.watch("src/js/**/*.js", gulp.series(js, logSize));
+  gulp.watch("src/index.html", gulp.series(html, logSize));
 };
 
 gulp.task("default", gulp.series(css, js, html, logSize));
