@@ -11,7 +11,6 @@ const rename = require("gulp-rename");
 const stripDebug = require("gulp-strip-debug");
 const terser = require("gulp-terser");
 const htmlReplace = require("gulp-html-replace");
-const htmlmin = require("gulp-htmlmin");
 const fs = require("fs");
 const prettyBytes = require("pretty-bytes");
 
@@ -105,7 +104,6 @@ const html = async () => {
           js: "script.min.js"
         })
       )
-      .pipe(htmlmin({ collapseWhitespace: true }))
       .pipe(gulp.dest("dist"))
       .on("error", reject)
       .on("end", resolve);
