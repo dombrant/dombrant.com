@@ -2,7 +2,6 @@ const gulp = require("gulp");
 const chalk = require("chalk");
 const del = require("del");
 const plumber = require("gulp-plumber");
-// const sourcemaps = require("gulp-sourcemaps");
 const postcss = require("gulp-postcss");
 const uncss = require("postcss-uncss");
 const cssnano = require("cssnano");
@@ -54,10 +53,8 @@ const css = async () => {
           errorHandler: plumberErrorHandler
         })
       )
-      // .pipe(sourcemaps.init())
       .pipe(concat("style.min.css"))
       .pipe(postcss(postCssPlugins))
-      // .pipe(sourcemaps.write())
       .pipe(gulp.dest("dist"))
       .on("error", reject)
       .on("end", resolve);
@@ -75,10 +72,8 @@ const js = async () => {
           errorHandler: plumberErrorHandler
         })
       )
-      // .pipe(sourcemaps.init())
       .pipe(stripDebug())
       .pipe(terser())
-      // .pipe(sourcemaps.write())
       .pipe(concat("script.min.js"))
       .pipe(gulp.dest("dist"))
       .on("error", reject)
