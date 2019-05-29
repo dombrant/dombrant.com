@@ -67,8 +67,8 @@
 }
 
 .down-arrow {
-  position: relative;
-  left: 43%;
+  max-height: 30px;
+  max-width: 50px;
 }
 
 .down-arrow path {
