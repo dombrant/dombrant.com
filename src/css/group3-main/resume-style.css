@@ -32,13 +32,13 @@
   /* Include padding left/right declarations to make the white background extend out slightly */
   font-family: var(--header-font);
   font-size: var(--h3-font-size);
-  background: var(--gray-white);
+  background: var(--white);
   border-radius: 5px;
 }
 
 .job-title > p:nth-child(2) {
   margin-top: 0;
-  color: var(--gray-white);
+  color: var(--white);
   font-family: var(--header-font);
 }
 
@@ -48,7 +48,7 @@
   align-content: center;
   width: 125px;
   height: 125px;
-  background: var(--gray-white);
+  background: var(--white);
   border-radius: 50%;
 }
 
@@ -61,7 +61,7 @@
 .job-description {
   margin-bottom: 25px;
   width: 40vw;
-  color: var(--gray-white);
+  color: var(--white);
   font-size: 18px;
   font-family: var(--body-font);
 }
@@ -105,7 +105,7 @@
 
 .resume-list > li {
   margin-top: 25px;
-  color: var(--gray-white);
+  color: var(--white);
 }
 
 .software-h3 {
@@ -122,9 +122,9 @@
 
 .resume-pdf-link > p {
   margin-bottom: 0;
-  color: var(--gray-white);
+  color: var(--white);
 }
 
 .resume-pdf-link > p > a {
-  color: var(--gray-white);
+  color: var(--white);
 }
