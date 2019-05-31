@@ -104,28 +104,33 @@ const html = async () => {
   });
 };
 
-const logSize = () =>
+const logCssSize = () =>
   new Promise((resolve, reject) => {
-    let projectSize = 0;
     try {
-      let file = fs.statSync("dist/index.html");
-      projectSize += file.size;
-      file = fs.statSync("dist/style.min.css");
-      projectSize += file.size;
-      file = fs.statSync("dist/script.min.js");
-      projectSize += file.size;
-      resolve(console.log(`Project Size: ${prettyBytes(projectSize)}`));
-      // Use the prettyBytes module to display the number of bytes in projectSize in Kb or Mb
+      let cssSize = fs.statSync("dist/style.min.css").size;
+      resolve(console.log(`CSS Size Minified: ${prettyBytes(cssSize)}`));
+      // Use prettyBytes to display the number of bytes in the main CSS file in Kb or Mb
+    } catch (error) {
+      reject(error);
+    }
+  });
+
+const logJsSize = () =>
+  new Promise((resolve, reject) => {
+    try {
+      let jsSize = fs.statSync("dist/script.min.js").size;
+      resolve(console.log(`JS Size Minified: ${prettyBytes(jsSize)}`));
+      // Use prettyBytes to display the number of bytes in the main JS file in Kb or Mb
     } catch (error) {
       reject(error);
     }
   });
 
 const watch = () => {
-  gulp.watch("src/css/**/*.css", gulp.series(css, logSize));
-  gulp.watch("src/js/**/*.js", gulp.series(js, logSize));
-  gulp.watch("src/index.html", gulp.series(html, logSize));
+  gulp.watch("src/css/**/*.css", gulp.series(css, logCssSize));
+  gulp.watch("src/js/**/*.js", gulp.series(js, logJsSize));
+  gulp.watch("src/index.html", html);
 };
 
-gulp.task("default", gulp.series(css, js, html, logSize));
-gulp.task("watch", gulp.series(css, js, html, logSize, watch));
+gulp.task("default", gulp.series(css, js, html, logCssSize, logJsSize));
+gulp.task("watch", gulp.series(css, js, html, logCssSize, logJsSize, watch));
