@@ -1,4 +1,4 @@
-//scrollToElement is found in 1-scroll-to-element.js
+// scrollToElement is found in 1-scroll-to-element.js
 // scrollToAbout() is found in 2-banner.js
 
 const scrollToResume = () => {
