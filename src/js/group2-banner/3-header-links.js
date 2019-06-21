@@ -18,6 +18,7 @@ document.querySelectorAll("nav li:first-child").forEach(element => {
     scrollToAbout();
     // From banner.js
     toggleMobileNav();
+    // From header-mobile.js
   });
   element.addEventListener("keypress", event => {
     const key = event.which || event.keyCode;
