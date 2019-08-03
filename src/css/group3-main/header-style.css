@@ -5,7 +5,7 @@ header {
   z-index: 1;
   width: 100vw;
   min-height: 75px;
-  color: #ffffff;
+  color: var(--white);
   background-color: #333333;
   transition: height 2s ease-in-out;
 }
@@ -34,6 +34,7 @@ header > div {
   font-size: 32px;
   font-family: var(--header-font-bold);
   font-weight: 700;
+  color: var(--orange);
 }
 
 @media (min-width: 551px) {
@@ -44,7 +45,7 @@ header > div {
 
 .menu-button {
   margin-left: 30px;
-  color: #ffffff;
+  color: var(--white);
   background: #333333;
   border: none;
   cursor: pointer;
@@ -54,7 +55,7 @@ header div svg {
   margin-left: 10%;
   width: 75px;
   height: 75px;
-  fill: #ffffff;
+  fill: var(--white);
   cursor: pointer;
 }
 
@@ -99,7 +100,7 @@ nav li:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: var(--white);
   visibility: hidden;
   /* Set the visibility to hidden for browsers that don't support CSS animations */
   transform: scaleX(0);
