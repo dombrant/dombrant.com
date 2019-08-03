@@ -18,7 +18,7 @@ const toggleNavLabel = () => {
   // Even values are for when the aria-label for .menu-button will be 'show menu'
   // Odd values are for 'hide menu'
 
-  const menuButton = document.querySelector(".menu-button");
+  const menuButton = menuItems[0];
 
   if (toggleNavLabelCount % 2 === 0) {
     menuButton.setAttribute("aria-label", "hide menu");
