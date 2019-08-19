@@ -5,6 +5,24 @@ const toggleMobileNav = () => {
   document
     .querySelectorAll("header div svg")
     .forEach(svg => svg.classList.toggle("svg-hidden"));
+
+  const toggleNavLabel = () => {
+    let toggleNavLabelCount = 0;
+    // Even values are for when the aria-label for .menu-button will be 'show menu'
+    // Odd values are for 'hide menu'
+
+    const menuButton = menuItems[0];
+
+    if (toggleNavLabelCount % 2 === 0) {
+      menuButton.setAttribute("aria-label", "hide menu");
+    } else {
+      menuButton.setAttribute("aria-label", "show menu");
+    }
+
+    toggleNavLabelCount++;
+  };
+
+  toggleNavLabel();
 };
 
 const menuItems = [
@@ -13,26 +31,9 @@ const menuItems = [
   document.querySelector(".close-svg")
 ];
 
-const toggleNavLabel = () => {
-  let toggleNavLabelCount = 0;
-  // Even values are for when the aria-label for .menu-button will be 'show menu'
-  // Odd values are for 'hide menu'
-
-  const menuButton = menuItems[0];
-
-  if (toggleNavLabelCount % 2 === 0) {
-    menuButton.setAttribute("aria-label", "hide menu");
-  } else {
-    menuButton.setAttribute("aria-label", "show menu");
-  }
-
-  toggleNavLabelCount++;
-};
-
 menuItems.forEach(item => {
   item.addEventListener("click", () => {
     toggleMobileNav();
-    toggleNavLabel();
   });
 
   item.addEventListener("keypress", e => {
