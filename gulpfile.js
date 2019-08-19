@@ -39,7 +39,8 @@ const css = async () => {
         ".banner-image-background",
         ".no-blur",
         ".blur-out",
-        ".fade-in-slide-up"
+        ".fade-in-slide-up",
+        ".nav-shown"
       ]
     }),
     cssnano()
