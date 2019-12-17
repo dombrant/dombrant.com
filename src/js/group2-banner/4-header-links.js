@@ -20,6 +20,7 @@ document.querySelectorAll("nav li:first-child").forEach(element => {
     toggleMobileNav();
     // From header-mobile.js
   });
+
   element.addEventListener("keypress", event => {
     const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
@@ -39,6 +40,7 @@ document.querySelectorAll("nav li:nth-child(2)").forEach(element => {
     scrollToResume();
     toggleMobileNav();
   });
+
   element.addEventListener("keypress", event => {
     const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
@@ -56,6 +58,7 @@ document.querySelectorAll("nav li:nth-child(3)").forEach(element => {
     scrollToWork();
     toggleMobileNav();
   });
+
   element.addEventListener("keypress", event => {
     const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
@@ -73,6 +76,7 @@ document.querySelectorAll("nav li:last-child").forEach(element => {
     scrollToContact();
     toggleMobileNav();
   });
+
   element.addEventListener("keypress", event => {
     const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode

@@ -1,5 +1,4 @@
 header {
-  position: fixed;
   display: flex;
   align-items: center;
   z-index: 1;
@@ -14,6 +13,7 @@ header {
   header {
     flex-direction: column;
     justify-content: center;
+    padding-top: 25px;
   }
 }
 

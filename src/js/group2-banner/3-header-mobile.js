@@ -1,3 +1,9 @@
+const menuItems = [
+  document.querySelector(".menu-button"),
+  document.querySelector(".hamburger-svg"),
+  document.querySelector(".close-svg")
+];
+
 const toggleMobileNav = () => {
   document
     .querySelectorAll("nav li")
@@ -24,12 +30,6 @@ const toggleMobileNav = () => {
 
   toggleNavLabel();
 };
-
-const menuItems = [
-  document.querySelector(".menu-button"),
-  document.querySelector(".hamburger-svg"),
-  document.querySelector(".close-svg")
-];
 
 menuItems.forEach(item => {
   item.addEventListener("click", () => {
