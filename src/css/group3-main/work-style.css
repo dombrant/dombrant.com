@@ -6,10 +6,10 @@
 
 .project {
   margin-bottom: 20vh;
-  margin-left: 10vw;
+  margin-left: 25px;
   width: 80vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .project:last-child {
@@ -19,11 +19,25 @@
 /* Set the margin-bottom to 0 to avoid a white block between the work and contact sections
 Set the padding-botton so that their is a little whitespace between the bottom of the last project and the end of the work section */
 
-.project-header {
+@media (max-width: 1000px) {
+  .project {
+    margin-left: 10vw;
+    flex-direction: column;
+  }
+}
+
+.project-description {
+  margin-right: 100px;
   width: 350px;
 }
 
-.project-header > h3 {
+@media (max-width: 1000px) {
+  .project-description {
+    margin-bottom: 5vh;
+  }
+}
+
+.project-description > h3 {
   /* Styling borrowed from the .job-title > h3 section in resume-style.css */
   margin-bottom: 20px;
   padding-right: 10px;
@@ -36,7 +50,7 @@ Set the padding-botton so that their is a little whitespace between the bottom o
   border-radius: 5px;
 }
 
-.project-header > p {
+.project-description > p {
   margin-top: 5px;
   margin-bottom: 0;
   font-family: var(--body-font);
@@ -55,15 +69,21 @@ Set the padding-botton so that their is a little whitespace between the bottom o
 
 .project-image > a > img {
   margin-bottom: 10px;
-  width: 500px;
+  width: 30vw;
   transition: all 0.2s ease-in-out;
 }
 
 .project-image-moon > a > img {
-  width: 400px;
+  width: 25vw;
 }
 /* Make the moon image smaller than all other project images, because the moon is more square than the others
 Therefore when at 500px wide, it is a little taller than the other images */
+
+@media (max-width: 1000px) {
+  .project-image > a > img {
+    width: 50vw;
+  }
+}
 
 .project-image > a > img:hover {
   box-shadow: 0px 10px 5px;

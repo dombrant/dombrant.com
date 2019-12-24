@@ -27,6 +27,12 @@
   width: 100vw;
 }
 
+@media (max-width: 650px) {
+  .contact-svgs {
+    justify-content: space-around;
+  }
+}
+
 .contact-svgs > a {
   display: flex;
   justify-content: center;
@@ -41,6 +47,13 @@
 .contact-svgs > a > svg {
   width: 100px;
   height: 100px;
+}
+
+@media (max-width: 650px) {
+  .contact-svgs > a {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .contact-svgs-twitter {

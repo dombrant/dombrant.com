@@ -130,6 +130,13 @@
   color: var(--white);
 }
 
+@media (max-width: 850px) {
+  .resume-pdf-link > p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 .resume-pdf-link > p > a {
   color: var(--white);
 }
