@@ -9,20 +9,15 @@
 }
 
 .work-experience-container {
-  margin-left: 15vw;
-  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .job-header {
   display: flex;
-  justify-content: space-between;
-}
-
-@media (max-width: 550px) {
-  .job-header {
-    flex-direction: column;
-    align-items: center;
-  }
+  justify-content: space-around;
+  width: 90vw;
 }
 
 .job-title {
@@ -66,16 +61,10 @@
 
 .job-description {
   margin-bottom: 25px;
-  width: 40vw;
+  width: 80vw;
   color: var(--white);
   font-size: 18px;
   font-family: var(--body-font);
-}
-
-@media (max-width: 700px) {
-  .job-description {
-    width: 80vw;
-  }
 }
 
 .skills-h3 {
