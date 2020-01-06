@@ -6,7 +6,7 @@
   min-height: 100vh;
   color: #ffffff;
   text-align: center;
-  text-shadow: 3px 3px 10px black;
+  text-shadow: var(--text-shadow);
   background: var(--main-blue);
   background-size: cover;
 }
@@ -64,6 +64,7 @@
   margin-top: 5%;
   margin-bottom: 5%;
   font-size: var(--paragraph-font-size);
+  text-shadow: var(--text-shadow);
 }
 
 .down-arrow {
