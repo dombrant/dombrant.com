@@ -12,19 +12,19 @@
   justify-content: center;
 }
 
-.project:last-child {
-  margin-bottom: 0;
-  padding-bottom: 5vh;
-}
-/* Set the margin-bottom to 0 to avoid a white block between the work and contact sections
-Set the padding-botton so that their is a little whitespace between the bottom of the last project and the end of the work section */
-
 @media (max-width: 1000px) {
   .project {
     margin-left: 10vw;
     flex-direction: column;
   }
 }
+
+.last-project {
+  margin-bottom: 0;
+  padding: 25px;
+}
+/* Set the margin-bottom to 0 to avoid a white block between the work and contact sections
+Change the padding so that there is less spacing below the last project in the code and design subsections */
 
 .project-description {
   margin-right: 100px;
