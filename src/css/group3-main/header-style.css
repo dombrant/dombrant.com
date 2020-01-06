@@ -32,7 +32,7 @@ header > div {
 .header-db,
 .menu-button {
   font-size: 32px;
-  font-family: var(--header-font-bold);
+  font-family: var(--body-font);
   font-weight: 700;
   color: var(--orange);
 }
@@ -90,7 +90,7 @@ nav li {
   /* Set the li items' positions to relative so the underline below can work */
   margin-right: 30px;
   font-size: 24px;
-  font-family: var(--header-font);
+  font-family: var(--body-font);
 }
 
 nav li:before {

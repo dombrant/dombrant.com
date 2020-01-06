@@ -53,6 +53,6 @@
   margin-bottom: 0;
   margin-left: 5vw;
   margin-right: 25px;
-  font-family: var(--paragraph-font);
-  font-size: var(--paragraph-font-size);
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
 }

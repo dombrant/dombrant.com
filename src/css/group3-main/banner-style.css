@@ -30,8 +30,8 @@
 
 .banner > p {
   width: 60vw;
-  font-family: var(--header-font);
-  font-size: var(--paragraph-font-size);
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
 }
 
 .banner > button {
@@ -43,7 +43,7 @@
   width: 250px;
   height: 100px;
   color: #ffffff;
-  font-family: var(--header-font-bold);
+  font-family: var(--body-font);
   background: Transparent;
   border: 5px solid #ffffff;
 }
@@ -63,7 +63,7 @@
 .banner button h3 {
   margin-top: 5%;
   margin-bottom: 5%;
-  font-size: var(--paragraph-font-size);
+  font-size: var(--body-font-size);
   text-shadow: var(--text-shadow);
 }
 

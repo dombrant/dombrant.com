@@ -55,7 +55,7 @@
 
 .job-dates > p {
   font-family: var(--body-font);
-  font-size: var(--paragraph-font-size);
+  font-size: var(-body-font-size);
   text-align: center;
 }
 
@@ -100,7 +100,7 @@
   margin-bottom: 25px;
   padding-left: 10%;
   font-family: var(--body-font);
-  font-size: var(--paragraph-font-size);
+  font-size: var(-body-font-size);
 }
 
 .resume-list > li {
@@ -116,7 +116,7 @@
   padding-bottom: 25px;
   width: 100vw;
   font-family: var(--body-font);
-  font-size: var(--paragraph-font-size);
+  font-size: var(-body-font-size);
   text-align: center;
 }
 

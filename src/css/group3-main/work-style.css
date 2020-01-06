@@ -48,7 +48,7 @@ Change the padding so that there is less spacing below the last project in the c
   margin-top: 5px;
   margin-bottom: 0;
   font-family: var(--body-font);
-  font-size: var(--paragraph-font-size);
+  font-size: var(-body-font-size);
 }
 
 .project-image {
@@ -58,7 +58,7 @@ Change the padding so that there is less spacing below the last project in the c
 
 .project-image > a {
   font-family: var(--body-font);
-  font-size: var(--paragraph-font-size);
+  font-size: var(-body-font-size);
 }
 
 .project-image > a > img {

@@ -12,8 +12,8 @@
 .contact-paragraph {
   margin-top: 5vh;
   width: 70vw;
-  font-family: var(--paragraph-font);
-  font-size: var(--paragraph-font-size);
+  font-family: var(--body-font);
+  font-size: var(-body-font-size);
 }
 
 .email-link {
