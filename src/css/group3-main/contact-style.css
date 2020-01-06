@@ -22,22 +22,16 @@
 
 .contact-svgs {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 10vh;
   width: 100vw;
 }
 
-@media (max-width: 650px) {
-  .contact-svgs {
-    justify-content: space-around;
-  }
-}
-
 .contact-svgs > a {
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 5vw;
   width: 110px;
   height: 110px;
   background-color: #ffffff;
