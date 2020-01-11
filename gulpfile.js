@@ -83,7 +83,7 @@ const js = async () => {
 };
 
 const html = async () => {
-  deleteFiles(".html");
+  deleteFiles("index.html");
 
   return new Promise((resolve, reject) => {
     gulp
@@ -95,11 +95,11 @@ const html = async () => {
       )
       .pipe(
         htmlReplace({
-          css: "style.min.css",
-          js: "script.min.js"
+          css: "dist/style.min.css",
+          js: "dist/script.min.js"
         })
       )
-      .pipe(gulp.dest("dist"))
+      .pipe(gulp.dest("./"))
       .on("error", reject)
       .on("end", resolve);
   });
