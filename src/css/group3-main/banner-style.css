@@ -41,7 +41,7 @@
   margin-top: 15vh;
   margin-bottom: 5vh;
   width: 250px;
-  height: 100px;
+  min-height: 100px;
   color: #ffffff;
   font-family: var(--body-font);
   background: Transparent;
