@@ -6,7 +6,7 @@
 
 .project {
   margin-bottom: 20vh;
-  margin-left: 25px;
+  margin-left: 5vw;
   width: 80vw;
   display: flex;
   justify-content: center;
@@ -14,7 +14,10 @@
 
 @media (max-width: 1000px) {
   .project {
+    margin-left: 0;
+    width: 100vw;
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -32,7 +35,11 @@ Change the padding so that there is less spacing below the last project in the c
 
 @media (max-width: 1000px) {
   .project-description {
+    margin-right: 50px;
+    /* Set the marging-right to 0 to properly center each project on smaller screens */
     margin-bottom: 5vh;
+    margin-left: 50px;
+    text-align: center;
   }
 }
 
@@ -56,6 +63,13 @@ Change the padding so that there is less spacing below the last project in the c
   flex-direction: column;
 }
 
+@media (max-width: 1000px) {
+  .project-image {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .project-image > a {
   font-family: var(--body-font);
   font-size: var(--body-font-size);
@@ -66,12 +80,6 @@ Change the padding so that there is less spacing below the last project in the c
   width: 30vw;
   transition: all 0.2s ease-in-out;
 }
-
-.project-image-moon > a > img {
-  width: 25vw;
-}
-/* Make the moon image smaller than all other project images, because the moon is more square than the others
-Therefore when at 500px wide, it is a little taller than the other images */
 
 @media (max-width: 1000px) {
   .project-image > a > img {
