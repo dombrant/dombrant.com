@@ -40,27 +40,22 @@ a:visited {
 /* This class will be added after the window has loaded in coming-soon.js */
 
 h1 {
-  margin-top: 15vh;
+  margin-top: 10vh;
   margin-bottom: 0;
   font-family: sans-serif;
-  font-size: 90px;
+  font-size: 72px;
 }
 
 @media (max-width: 350px) {
   body {
     height: auto;
   }
-
-  h1 {
-    margin-top: 0;
-    font-size: 72px;
-  }
 }
 
 p {
-  margin-top: 100px;
+  margin-top: 10vh;
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 150%;
 }
 
