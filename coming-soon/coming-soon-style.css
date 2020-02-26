@@ -7,14 +7,6 @@ body {
   border: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 a:visited {
   text-decoration: none;
 }
@@ -73,24 +65,13 @@ p {
   }
 }
 
-.github-link {
-  color: #1b1f23;
+a {
+  color: white;
+  text-decoration: underline;
 }
 
-.twitter-link {
-  color: #1da0f1;
-}
-
-.homepage-link {
-  color: #ff9800;
-}
-
-.github-link,
-.twitter-link,
-.homepage-link {
-  padding: 2px;
-  background-color: #ffffff;
-  border-radius: 5px;
+a:hover {
+  text-decoration: none;
 }
 
 .svg-container {
