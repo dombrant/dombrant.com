@@ -25,7 +25,7 @@ const deleteFiles = async (extension = "", directory = "dist") => {
   // Delete any files in the directory argument matching the extension argument
 };
 
-const plumberErrorHandler = error =>
+const plumberErrorHandler = (error) =>
   console.log(`${chalk.red("Error:")} ${error}`);
 // Create a function for handling errors caught by the plumber plugin
 
@@ -40,20 +40,16 @@ const css = async () => {
         ".no-blur",
         ".blur-out",
         ".fade-in-slide-up",
-        ".nav-shown"
-      ]
+        ".nav-shown",
+      ],
     }),
-    cssnano()
+    cssnano(),
   ];
 
   return new Promise((resolve, reject) => {
     gulp
       .src("src/css/**/*.css")
-      .pipe(
-        plumber({
-          errorHandler: plumberErrorHandler
-        })
-      )
+      .pipe(plumber({ errorHandler: plumberErrorHandler }))
       .pipe(concat("style.min.css"))
       .pipe(postcss(postCssPlugins))
       .pipe(gulp.dest("dist"))
@@ -68,11 +64,7 @@ const js = async () => {
   return new Promise((resolve, reject) => {
     gulp
       .src("src/js/**/*.js")
-      .pipe(
-        plumber({
-          errorHandler: plumberErrorHandler
-        })
-      )
+      .pipe(plumber({ errorHandler: plumberErrorHandler }))
       .pipe(stripDebug())
       .pipe(terser())
       .pipe(concat("script.min.js"))
@@ -88,15 +80,11 @@ const html = async () => {
   return new Promise((resolve, reject) => {
     gulp
       .src("src/index.html")
-      .pipe(
-        plumber({
-          errorHandler: plumberErrorHandler
-        })
-      )
+      .pipe(plumber({ errorHandler: plumberErrorHandler }))
       .pipe(
         htmlReplace({
           css: "dist/style.min.css",
-          js: "dist/script.min.js"
+          js: "dist/script.min.js",
         })
       )
       .pipe(gulp.dest("./"))
