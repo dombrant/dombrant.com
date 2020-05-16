@@ -13,7 +13,7 @@ const scrollToContact = () => {
   scrollToElement(".main-contact");
 };
 
-document.querySelectorAll("nav li:first-child").forEach(element => {
+document.querySelectorAll("nav li:first-child").forEach((element) => {
   element.addEventListener("click", () => {
     scrollToAbout();
     // From banner.js
@@ -21,7 +21,7 @@ document.querySelectorAll("nav li:first-child").forEach(element => {
     // From header-mobile.js
   });
 
-  element.addEventListener("keypress", event => {
+  element.addEventListener("keypress", (event) => {
     const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
 
@@ -35,13 +35,13 @@ document.querySelectorAll("nav li:first-child").forEach(element => {
 });
 // Instead of creating a new function for the about button, reuse the one for the banner button from banner-script.js
 
-document.querySelectorAll("nav li:nth-child(2)").forEach(element => {
+document.querySelectorAll("nav li:nth-child(2)").forEach((element) => {
   element.addEventListener("click", () => {
     scrollToResume();
     toggleMobileNav();
   });
 
-  element.addEventListener("keypress", event => {
+  element.addEventListener("keypress", (event) => {
     const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
 
@@ -53,13 +53,13 @@ document.querySelectorAll("nav li:nth-child(2)").forEach(element => {
   });
 });
 
-document.querySelectorAll("nav li:nth-child(3)").forEach(element => {
+document.querySelectorAll("nav li:nth-child(3)").forEach((element) => {
   element.addEventListener("click", () => {
     scrollToWork();
     toggleMobileNav();
   });
 
-  element.addEventListener("keypress", event => {
+  element.addEventListener("keypress", (event) => {
     const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
 
@@ -71,13 +71,13 @@ document.querySelectorAll("nav li:nth-child(3)").forEach(element => {
   });
 });
 
-document.querySelectorAll("nav li:last-child").forEach(element => {
+document.querySelectorAll("nav li:last-child").forEach((element) => {
   element.addEventListener("click", () => {
     scrollToContact();
     toggleMobileNav();
   });
 
-  element.addEventListener("keypress", event => {
+  element.addEventListener("keypress", (event) => {
     const key = event.which || event.keyCode;
     // Some browsers use .which where others use .keycode for locating the keycode
 

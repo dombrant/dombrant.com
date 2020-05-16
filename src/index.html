@@ -73,7 +73,6 @@
     <!-- build:css -->
     <link rel="stylesheet" href="css/group1-critical/reset.css" />
     <link rel="stylesheet" href="css/group1-critical/variables.css" />
-    <link rel="stylesheet" href="css/group2-lib/blurry-load.css" />
     <link rel="stylesheet" href="css/group2-lib/fade-in-slide-up.css" />
     <link rel="stylesheet" href="css/group3-main/banner-style.css" />
     <link rel="stylesheet" href="css/group3-main/header-footer-style.css" />
@@ -218,12 +217,7 @@
         <h1>About Me</h1>
         <hr />
         <div class="main-about-content">
-          <img
-            class="blurry-load"
-            src="../img/thumbnail/dominic-thumbnail.jpg"
-            data-large="../img/dominic.jpg"
-            alt="headshot of me"
-          />
+          <img src="../img/dominic.jpg" loading="lazy" alt="headshot of me" />
           <div>
             <p>
               My name is Dominic Brant. I’m a web developer focused on writing
@@ -377,9 +371,8 @@
               aria-label="link to a live demo of the Glorietta project"
             >
               <img
-                class="blurry-load"
-                src="../img/thumbnail/glorietta-screenshot-thumbnail.png"
-                data-large="../img/glorietta-screenshot.png"
+                src="../img/glorietta-screenshot.png"
+                loading="lazy"
                 alt="A screenshot of the home page of my Glorietta website"
               />
             </a>
@@ -408,9 +401,8 @@
               aria-label="link to a live demo of the Blurry Image Load project"
             >
               <img
-                class="blurry-load"
-                src="../img/thumbnail/blurry-image-load-screenshot-thumbnail.png"
-                data-large="../img/blurry-image-load-screenshot.png"
+                src="../img/blurry-image-load-screenshot.png"
+                loading="lazy"
                 alt="A screenshot of the demo website of my Blurry Image Load library"
               />
             </a>
@@ -438,9 +430,8 @@
               aria-label="link to a live demo of the Blurry Image Load project"
             >
               <img
-                class="blurry-load"
-                src="../img/thumbnail/apple-news-welcome-message-screenshot-thumbnail.png"
-                data-large="../img/apple-news-welcome-message-screenshot.png"
+                src="../img/apple-news-welcome-message-screenshot.png"
+                loading="lazy"
                 alt="A screenshot of the demo website of my Apple News Welcome Message project"
               />
             </a>
@@ -466,9 +457,8 @@
               aria-label="link to the GitHub repo of the Blurry Image Load project"
             >
               <img
-                class="blurry-load"
-                src="../img/thumbnail/random-screenshot-thumbnail.png"
-                data-large="../img/random-screenshot.png"
+                src="../img/random-screenshot.png"
+                loading="lazy"
                 alt="A screenshot of the GitHub repository of my Random project"
               />
             </a>
@@ -505,9 +495,8 @@
               aria-label="link to the Behance page of the Moon project"
             >
               <img
-                class="blurry-load"
-                src="../img/thumbnail/moon-thumbnail.png"
-                data-large="../img/moon.png"
+                src="../img/moon.png"
+                loading="lazy"
                 alt="A flat drawing of the moon, with gray circles throughout representing craters, and a gray shadow along the left side. The background is a navy blue color with white circles representing stars."
               />
             </a>
@@ -651,13 +640,12 @@
     </footer>
 
     <!-- build:js -->
-    <script src="js/group1-lib/blurry-load.js"></script>
-    <script src="js/group2-banner/1-scroll-to-element.js"></script>
-    <script src="js/group2-banner/2-banner.js"></script>
-    <script src="js/group2-banner/3-header-mobile.js"></script>
-    <script src="js/group2-banner/4-header-links.js"></script>
-    <script src="js/group3-main/main-sections.js"></script>
-    <script src="js/group4-onload/onload.js"></script>
+    <script src="js/group1-banner/1-scroll-to-element.js"></script>
+    <script src="js/group1-banner/2-banner.js"></script>
+    <script src="js/group1-banner/3-header-mobile.js"></script>
+    <script src="js/group1-banner/4-header-links.js"></script>
+    <script src="js/group2-main/main-sections.js"></script>
+    <script src="js/group3-onload/onload.js"></script>
     <!-- endbuild -->
   </body>
 </html>
