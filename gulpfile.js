@@ -8,6 +8,7 @@ const cssnano = require("cssnano");
 const concat = require("gulp-concat");
 const stripDebug = require("gulp-strip-debug");
 const terser = require("gulp-terser");
+const rename = require("gulp-rename");
 const htmlReplace = require("gulp-html-replace");
 const fs = require("fs");
 const prettyBytes = require("pretty-bytes");
@@ -67,7 +68,7 @@ const js = async () => {
       .pipe(plumber({ errorHandler: plumberErrorHandler }))
       .pipe(stripDebug())
       .pipe(terser())
-      .pipe(concat("script.min.js"))
+      .pipe(rename((path) => (path.extname = ".min.js")))
       .pipe(gulp.dest("dist"))
       .on("error", reject)
       .on("end", resolve);
