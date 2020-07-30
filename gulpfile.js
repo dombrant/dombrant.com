@@ -6,7 +6,6 @@ const postcss = require("gulp-postcss");
 const uncss = require("postcss-uncss");
 const cssnano = require("cssnano");
 const concat = require("gulp-concat");
-const stripDebug = require("gulp-strip-debug");
 const terser = require("gulp-terser");
 const rename = require("gulp-rename");
 const htmlReplace = require("gulp-html-replace");
@@ -67,7 +66,6 @@ const js = async () => {
     gulp
       .src("src/js/**/*.js")
       .pipe(plumber({ errorHandler: plumberErrorHandler }))
-      .pipe(stripDebug())
       .pipe(terser())
       .pipe(rename((path) => (path.extname = ".min.js")))
       .pipe(gulp.dest("dist"))

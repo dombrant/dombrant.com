@@ -8,3 +8,5 @@ const scrollToElement = (element) => {
     behavior: "smooth",
   });
 };
+
+export default scrollToElement;
