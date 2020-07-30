@@ -31,18 +31,22 @@ const toggleMobileNav = () => {
   toggleNavLabel();
 };
 
-menuItems.forEach((item) => {
-  item.addEventListener("click", () => {
-    toggleMobileNav();
-  });
-
-  item.addEventListener("keypress", (e) => {
-    const key = e.which || e.keyCode;
-    // Some browsers use .which where others use .keycode for locating the keycode
-
-    if (key === 13) {
+const activateMobileNavListener = () => {
+  menuItems.forEach((item) => {
+    item.addEventListener("click", () => {
       toggleMobileNav();
-    }
-    // Key 13 is enter
+    });
+
+    item.addEventListener("keypress", (e) => {
+      const key = e.which || e.keyCode;
+      // Some browsers use .which where others use .keycode for locating the keycode
+
+      if (key === 13) {
+        toggleMobileNav();
+      }
+      // Key 13 is enter
+    });
   });
-});
+};
+
+export { toggleMobileNav, activateMobileNavListener };

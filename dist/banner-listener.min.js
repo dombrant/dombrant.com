@@ -1,0 +1,1 @@
+import scrollToElement from"./scroll-to-element.min.js";const activateBannerListener=()=>{document.querySelector(".banner > button").addEventListener("click",()=>scrollToElement(".main-about"))};export default activateBannerListener;
