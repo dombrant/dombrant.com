@@ -86,7 +86,10 @@ const html = async () => {
       .pipe(
         htmlReplace({
           css: "dist/style.min.css",
-          js: "dist/script.min.js",
+          js: {
+            src: "dist/script.js",
+            tpl: `<script type="module" src="%s"></script>`,
+          },
         })
       )
       .pipe(gulp.dest("./"))
