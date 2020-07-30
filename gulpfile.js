@@ -12,6 +12,7 @@ const rename = require("gulp-rename");
 const htmlReplace = require("gulp-html-replace");
 const fs = require("fs");
 const prettyBytes = require("pretty-bytes");
+const getFolderSize = require("get-folder-size");
 
 const deleteFiles = async (extension = "", directory = "dist") => {
   try {
@@ -94,33 +95,26 @@ const html = async () => {
   });
 };
 
-const logCssSize = () =>
+const logBundleSize = () =>
   new Promise((resolve, reject) => {
     try {
-      let cssSize = fs.statSync("dist/style.min.css").size;
-      resolve(console.log(`CSS Size Minified: ${prettyBytes(cssSize)}`));
-      // Use prettyBytes to display the number of bytes in the main CSS file in Kb or Mb
-    } catch (error) {
-      reject(error);
-    }
-  });
-
-const logJsSize = () =>
-  new Promise((resolve, reject) => {
-    try {
-      let jsSize = fs.statSync("dist/script.min.js").size;
-      resolve(console.log(`JS Size Minified: ${prettyBytes(jsSize)}`));
-      // Use prettyBytes to display the number of bytes in the main JS file in Kb or Mb
+      getFolderSize("./dist", (error, size) => {
+        if (error) {
+          reject(error);
+        }
+        resolve(console.log(`Bundle size: ${prettyBytes(size)}`));
+      });
+      // Use prettyBytes to display the combined size of CSS and JS files
     } catch (error) {
       reject(error);
     }
   });
 
 const watch = () => {
-  gulp.watch("src/css/**/*.css", gulp.series(css, logCssSize));
-  gulp.watch("src/js/**/*.js", gulp.series(js, logJsSize));
+  gulp.watch("src/css/**/*.css", gulp.series(css, logBundleSize));
+  gulp.watch("src/js/**/*.js", gulp.series(js, logBundleSize));
   gulp.watch("src/index.html", html);
 };
 
-gulp.task("default", gulp.series(css, js, html, logCssSize, logJsSize));
-gulp.task("watch", gulp.series(css, js, html, logCssSize, logJsSize, watch));
+gulp.task("default", gulp.series(css, js, html, logBundleSize));
+gulp.task("watch", gulp.series(css, js, html, logBundleSize, watch));
