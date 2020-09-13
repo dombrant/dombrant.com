@@ -1,0 +1,1 @@
+const scrollToElement=o=>{const e=document.querySelector(o).offsetTop;window.scrollTo({top:parseInt(e),left:0,behavior:"smooth"})};export default scrollToElement;
