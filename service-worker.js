@@ -1,4 +1,4 @@
-const staticCache = "cache-v1";
+const staticCache = "cache-v2";
 const assets = [
   "/",
   "/index.html",
