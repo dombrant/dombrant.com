@@ -1,7 +1,5 @@
 const staticCache = "cache-v1";
 const assets = [
-  "/",
-  "/index.html",
   "/dist/style.min.css",
   "https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px&display=optional",
   "/dist/banner-listener.min.js",
