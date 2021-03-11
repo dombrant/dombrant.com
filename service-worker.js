@@ -1,4 +1,4 @@
-const staticCache = "cache-v1";
+const staticCache = "cache-v2";
 const assets = [
   "/dist/style.min.css",
   "https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px&display=optional",
@@ -9,13 +9,13 @@ const assets = [
   "/dist/on-load-events.min.js",
   "/dist/script.min.js",
   "/dist/scroll-to-element.min.js",
-  "img/apple-news-welcome-message-screenshot.png",
   "img/blurry-image-load-screenshot.png",
   "img/dominic.jpg",
   "img/glorietta-screenshot.png",
   "img/moon.png",
   "img/palm-trees-6EBBDE.jpg",
   "img/wallpaper-creator-screenshot.png",
+  "img/weather-app-screenshot.png",
   "svg/babel.svg",
   "svg/behance.svg",
   "svg/github.svg",
