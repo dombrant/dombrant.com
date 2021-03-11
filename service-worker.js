@@ -18,6 +18,15 @@ const assets = [
   "img/moon.png",
   "img/palm-trees-6EBBDE.jpg",
   "img/wallpaper-creator-screenshot.png",
+  "svg/babel.svg",
+  "svg/behance.svg",
+  "svg/github.svg",
+  "svg/javascript.svg",
+  "svg/linkedin.svg",
+  "svg/nodejs.svg",
+  "svg/react.svg",
+  "svg/twitter.svg",
+  "svg/vs-code.svg",
 ];
 
 self.addEventListener("install", (event) => {
