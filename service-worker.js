@@ -1,4 +1,4 @@
-const staticCache = "cache-v2";
+const staticCache = "cache-v1";
 const assets = [
   "/",
   "/index.html",
@@ -18,7 +18,6 @@ const assets = [
   "img/moon.png",
   "img/palm-trees-6EBBDE.jpg",
   "img/wallpaper-creator-screenshot.png",
-  "/resume/Dominic-Brant-Resume.pdf",
 ];
 
 self.addEventListener("install", (event) => {
