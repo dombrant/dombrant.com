@@ -22,9 +22,9 @@
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^9.0.0",
     "gulp-rename": "^2.0.0",
-    "gulp-terser": "^1.2.0",
+    "gulp-terser": "^2.0.1",
     "postcss-uncss": "^0.17.0",
-    "pretty-bytes": "^5.3.0",
+    "pretty-bytes": "^5.6.0",
     "uncss": "^0.17.0"
   }
 }
