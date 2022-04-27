@@ -10,6 +10,9 @@
   "author": "Dominic Brant <dombrant@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@parcel/packager-raw-url": "2.5.0",
+    "@parcel/service-worker": "^2.5.0",
+    "@parcel/transformer-webmanifest": "2.5.0",
     "parcel": "^2.5.0"
   }
 }
