@@ -1,5 +1,5 @@
-import scrollToElement from "./scroll-to-element.min.js";
-import { toggleMobileNav } from "./header-mobile.min.js";
+import scrollToElement from "./scroll-to-element.js";
+import { toggleMobileNav } from "./header-mobile.js";
 
 const scrollToAbout = () => {
   scrollToElement(".main-about");

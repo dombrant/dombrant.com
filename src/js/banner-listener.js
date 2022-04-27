@@ -1,4 +1,4 @@
-import scrollToElement from "./scroll-to-element.min.js";
+import scrollToElement from "./scroll-to-element.js";
 
 const activateBannerListener = () => {
   document

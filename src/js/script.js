@@ -1,8 +1,8 @@
-import activateBannerListener from "./banner-listener.min.js";
-import { activateMobileNavListener } from "./header-mobile.min.js";
-import activateHeaderListeners from "./header-links.min.js";
-import mainDivsFadeIn from "./main-sections.min.js";
-import onLoadEvents from "./on-load-events.min.js";
+import activateBannerListener from "./banner-listener.js";
+import { activateMobileNavListener } from "./header-mobile.js";
+import activateHeaderListeners from "./header-links.js";
+import mainDivsFadeIn from "./main-sections.js";
+import onLoadEvents from "./on-load-events.js";
 
 activateBannerListener();
 activateMobileNavListener();
@@ -11,5 +11,8 @@ mainDivsFadeIn();
 onLoadEvents();
 
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("../service-worker.js");
+  navigator.serviceWorker.register(
+    new URL("../../service-worker.js", import.meta.url),
+    { type: "module" }
+  );
 }
