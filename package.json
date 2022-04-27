@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "My personal website",
   "scripts": {
-    "start": "gulp watch",
-    "build": "gulp"
+    "start": "parcel index.html",
+    "build": "parcel index.html --no-source-maps"
   },
   "repository": "https://github.com/dombrant/dombrant.com.git",
   "author": "Dominic Brant <dombrant@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
 }

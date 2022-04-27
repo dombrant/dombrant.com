@@ -126,3 +126,7 @@ typings/
 .history
 
 # End of https://www.gitignore.io/api/macos,node,web,visualstudiocode
+
+# Parcel
+dist
+.parcel-cache
