@@ -9,12 +9,8 @@
   text-shadow: var(--text-shadow);
   background: var(--main-blue);
   background-size: cover;
+  background-image: url("../../img/palm-trees-6EBBDE.jpg");
 }
-
-.banner-image-background {
-  background-image: url("https://media.githubusercontent.com/media/dombrant/dombrant.com/master/img/palm-trees-6EBBDE.jpg");
-}
-/* This class will be added after the window has loaded in banner.js */
 
 .banner > h1 {
   margin-top: 150px;
