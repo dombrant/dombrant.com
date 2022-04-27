@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "My personal website",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel index.html --no-source-maps"
+    "start": "pnpx parcel index.html",
+    "build": "pnpx parcel index.html --no-source-maps"
   },
   "repository": "https://github.com/dombrant/dombrant.com.git",
   "author": "Dominic Brant <dombrant@gmail.com>",
