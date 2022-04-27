@@ -25,7 +25,7 @@ a:visited {
 }
 
 .banner-image-background {
-  background: url("https://media.githubusercontent.com/media/dombrant/dombrant.com/master/img/palm-trees-6EBBDE.jpg");
+  background: url("../src/img/palm-trees-6EBBDE.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -72,27 +72,4 @@ a {
 
 a:hover {
   text-decoration: none;
-}
-
-.svg-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10vh;
-}
-
-.svg-container svg {
-  padding: 2px;
-  width: 50px;
-  height: 50px;
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-
-.twitter-svg {
-  margin-right: 5vw;
-  fill: #1da1f2;
-}
-
-.github-svg {
-  fill: #181717;
 }
