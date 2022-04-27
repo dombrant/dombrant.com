@@ -1,4 +1,4 @@
-const staticCache = "cache-v2";
+const staticCache = "cache-04-27-22";
 const assets = [
   "/dist/style.min.css",
   "https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px&display=optional",
