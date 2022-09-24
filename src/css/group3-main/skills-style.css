@@ -1,60 +1,47 @@
-.main-resume {
+.main-skills {
   background: #000dff;
   /* fallback for browsers that do not support gradients */
   background: linear-gradient(180deg, #6b73ff 10%, #000dff 100%);
 }
 
-.resume-svgs {
+.skills-svgs {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
 
-.resume-svgs > img {
+.skills-svgs > img {
   width: 125px;
   height: 125px;
 }
 
 @media (min-width: 851px) {
-  .resume-svgs > img {
+  .skills-svgs > img {
     margin-left: 10vw;
   }
 
-  .resume-svgs > img:first-child {
+  .skills-svgs > img:first-child {
     margin-left: 0vw;
   }
 }
 
 @media (max-width: 850px) {
-  .resume-svgs > img {
+  .skills-svgs > img {
     margin-left: 25px;
     width: 50px;
     height: 50px;
   }
 }
 
-.resume-list {
+.skills-list {
   margin-bottom: 25px;
   padding-left: 10%;
   font-family: var(--body-font);
   font-size: var(--body-font-size);
 }
 
-.resume-list > li {
+.skills-list > li {
   margin-top: 25px;
   width: 90%;
-  color: var(--white);
-}
-
-.resume-pdf-link {
-  margin-top: 10px;
-  padding-bottom: 25px;
-  width: 100vw;
-  font-family: var(--body-font);
-  font-size: var(--body-font-size);
-  text-align: center;
-}
-
-.resume-pdf-link > a {
   color: var(--white);
 }
