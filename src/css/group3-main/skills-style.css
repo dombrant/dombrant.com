@@ -34,7 +34,7 @@
 }
 
 .skills-list {
-  margin-bottom: 25px;
+  margin-bottom: 0;
   padding-left: 10%;
   font-family: var(--body-font);
   font-size: var(--body-font-size);
