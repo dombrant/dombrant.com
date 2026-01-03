@@ -10,6 +10,7 @@ body {
 a:visited {
   text-decoration: none;
 }
+
 /*
  * End CSS Reset
  */
@@ -24,11 +25,12 @@ a:visited {
   background: #6eb8de;
 }
 
-.banner-image-background {
-  background: url("../src/img/palm-trees-6EBBDE.jpg");
+.container {
+  background: url("../img/palm-trees-6EBBDE.jpg");
   background-position: center;
   background-size: cover;
 }
+
 /* This class will be added after the window has loaded in coming-soon.js */
 
 h1 {
